@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerMovement))]
 public class PlayerController : MonoBehaviour
 {
+    public Interactable focus;
+
     public LayerMask movementMask;
 
     Camera mainCam;
@@ -25,10 +27,20 @@ public class PlayerController : MonoBehaviour
             Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit, 100, movementMask))
+            if (Physics.Raycast(ray, out hit, 100))
             {
-                movement.MoveTo(hit.point);
-            }
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+                if (interactable != null)
+                {
+                    SetFocus(interactable);
+                    Debug.Log("Interact");
+                }
+                else
+                {
+                    movement.MoveTo(hit.point);
+                    RemoveFocus();
+                }
+            }   
         }
 
         if (Input.GetMouseButtonDown(1))
@@ -38,8 +50,36 @@ public class PlayerController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, 100))
             {
-                 
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+                if (interactable != null)
+                {
+                    SetFocus(interactable);
+                }
             }
         }
+    }
+
+    void SetFocus(Interactable newFocus)
+    {
+        if (newFocus != focus)
+        {
+            if(focus != null)
+            {
+                focus.OnDefocused();
+            }
+            focus = newFocus; 
+            movement.FollowTarger(focus);
+        }
+        newFocus.OnFocused(transform);
+    }
+
+    void RemoveFocus()
+    {
+        if (focus != null)
+        {
+            focus.OnDefocused();
+        }
+        focus = null;
+        movement.StopFollowingTarget();
     }
 }
