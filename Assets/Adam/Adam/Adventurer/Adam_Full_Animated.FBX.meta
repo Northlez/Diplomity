@@ -1,442 +1,1287 @@
 fileFormatVersion: 2
 guid: 87bd49c619883084db8ac7988c1685fe
-timeCreated: 1453202423
-licenseType: Store
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: Adam_Adv_Belt
-    100002: Adam_Adv_Boots
-    100004: Adam_Adv_Bread
-    100006: Adam_Adv_Gloves
-    100008: Adam_Adv_Hood
-    100010: Adam_Adv_Jerkin
-    100012: Adam_Adv_paints
-    100014: Adam_Adv_Shirt
-    100016: Adam_Arrow_Adv01
-    100018: Adam_Arrow_Adv02
-    100020: Adam_Arrow_Adv03
-    100022: Adam_Arrow_Adv04
-    100024: Adam_Arrow_Adv05
-    100026: Adam_body_All
-    100028: Adam_Bow_Adv_Back
-    100030: Adam_Bow_Adv_Hand
-    100032: Adam_Bow_Adv_Hand_animation_controller01
-    100034: Adam_Bow_Adv_Hand_Main_Bone01
-    100036: //RootNode
-    100038: Adam_Quiver_Adv
-    100040: Adam_Scabbard_adv_Left
-    100042: Adam_Scabbard_adv_Right
-    100044: Adam_Shield_Adv_Back
-    100046: Adam_Shield_Adv_Hand
-    100048: Adam_Sword_Adv_Back_Left
-    100050: Adam_Sword_Adv_Hand_Left
-    100052: Adam_Sword_Adv_Hand_Right
-    100054: AdamArrow_Adv_Hand
-    100056: Adamm_Sword_Adv_Back_Right
-    100058: Adv_Adam_Hair
-    100060: Bip01
-    100062: Bip01 back_left_Wmount
-    100064: Bip01 back_right_Wmount
-    100066: Bip01 back_shield_mount
-    100068: Bip01 Head
-    100070: Bip01 L Calf
-    100072: Bip01 L Clavicle
-    100074: Bip01 L Finger0
-    100076: Bip01 L Finger01
-    100078: Bip01 L Finger02
-    100080: Bip01 L Finger1
-    100082: Bip01 L Finger11
-    100084: Bip01 L Finger12
-    100086: Bip01 L Finger2
-    100088: Bip01 L Finger21
-    100090: Bip01 L Finger22
-    100092: Bip01 L Finger3
-    100094: Bip01 L Finger31
-    100096: Bip01 L Finger32
-    100098: Bip01 L Finger4
-    100100: Bip01 L Finger41
-    100102: Bip01 L Finger42
-    100104: Bip01 L Foot
-    100106: Bip01 L Forearm
-    100108: Bip01 L ForeTwist
-    100110: Bip01 L ForeTwist1
-    100112: Bip01 L Hand
-    100114: Bip01 L Thigh
-    100116: Bip01 L Toe0
-    100118: Bip01 L UpperArm
-    100120: Bip01 left_Wmount
-    100122: Bip01 LUpArmTwist
-    100124: Bip01 LUpArmTwist1
-    100126: Bip01 Neck
-    100128: Bip01 Pelvis
-    100130: Bip01 R Calf
-    100132: Bip01 R Clavicle
-    100134: Bip01 R Finger0
-    100136: Bip01 R Finger01
-    100138: Bip01 R Finger02
-    100140: Bip01 R Finger1
-    100142: Bip01 R Finger11
-    100144: Bip01 R Finger12
-    100146: Bip01 R Finger2
-    100148: Bip01 R Finger21
-    100150: Bip01 R Finger22
-    100152: Bip01 R Finger3
-    100154: Bip01 R Finger31
-    100156: Bip01 R Finger32
-    100158: Bip01 R Finger4
-    100160: Bip01 R Finger41
-    100162: Bip01 R Finger42
-    100164: Bip01 R Foot
-    100166: Bip01 R Forearm
-    100168: Bip01 R ForeTwist
-    100170: Bip01 R ForeTwist1
-    100172: Bip01 R Hand
-    100174: Bip01 R Thigh
-    100176: Bip01 R Toe0
-    100178: Bip01 R UpperArm
-    100180: Bip01 Rhand_Weapon
-    100182: Bip01 Rhand_WeaponOpp
-    100184: Bip01 right_Wmount
-    100186: Bip01 RUpArmTwist
-    100188: Bip01 RUpArmTwist1
-    100190: Bip01 shield_mount
-    100192: Bip01 Spine
-    100194: Bip01 Spine1
-    100196: Bip01 zeye_left
-    100198: Bip01 zeye_right
-    100200: Bip01 zJaw
-    100202: Bip01 zz_eye_left_lookAt
-    100204: Bip01 zz_eye_right_lookA
-    400000: Adam_Adv_Belt
-    400002: Adam_Adv_Boots
-    400004: Adam_Adv_Bread
-    400006: Adam_Adv_Gloves
-    400008: Adam_Adv_Hood
-    400010: Adam_Adv_Jerkin
-    400012: Adam_Adv_paints
-    400014: Adam_Adv_Shirt
-    400016: Adam_Arrow_Adv01
-    400018: Adam_Arrow_Adv02
-    400020: Adam_Arrow_Adv03
-    400022: Adam_Arrow_Adv04
-    400024: Adam_Arrow_Adv05
-    400026: Adam_body_All
-    400028: Adam_Bow_Adv_Back
-    400030: Adam_Bow_Adv_Hand
-    400032: Adam_Bow_Adv_Hand_animation_controller01
-    400034: Adam_Bow_Adv_Hand_Main_Bone01
-    400036: //RootNode
-    400038: Adam_Quiver_Adv
-    400040: Adam_Scabbard_adv_Left
-    400042: Adam_Scabbard_adv_Right
-    400044: Adam_Shield_Adv_Back
-    400046: Adam_Shield_Adv_Hand
-    400048: Adam_Sword_Adv_Back_Left
-    400050: Adam_Sword_Adv_Hand_Left
-    400052: Adam_Sword_Adv_Hand_Right
-    400054: AdamArrow_Adv_Hand
-    400056: Adamm_Sword_Adv_Back_Right
-    400058: Adv_Adam_Hair
-    400060: Bip01
-    400062: Bip01 back_left_Wmount
-    400064: Bip01 back_right_Wmount
-    400066: Bip01 back_shield_mount
-    400068: Bip01 Head
-    400070: Bip01 L Calf
-    400072: Bip01 L Clavicle
-    400074: Bip01 L Finger0
-    400076: Bip01 L Finger01
-    400078: Bip01 L Finger02
-    400080: Bip01 L Finger1
-    400082: Bip01 L Finger11
-    400084: Bip01 L Finger12
-    400086: Bip01 L Finger2
-    400088: Bip01 L Finger21
-    400090: Bip01 L Finger22
-    400092: Bip01 L Finger3
-    400094: Bip01 L Finger31
-    400096: Bip01 L Finger32
-    400098: Bip01 L Finger4
-    400100: Bip01 L Finger41
-    400102: Bip01 L Finger42
-    400104: Bip01 L Foot
-    400106: Bip01 L Forearm
-    400108: Bip01 L ForeTwist
-    400110: Bip01 L ForeTwist1
-    400112: Bip01 L Hand
-    400114: Bip01 L Thigh
-    400116: Bip01 L Toe0
-    400118: Bip01 L UpperArm
-    400120: Bip01 left_Wmount
-    400122: Bip01 LUpArmTwist
-    400124: Bip01 LUpArmTwist1
-    400126: Bip01 Neck
-    400128: Bip01 Pelvis
-    400130: Bip01 R Calf
-    400132: Bip01 R Clavicle
-    400134: Bip01 R Finger0
-    400136: Bip01 R Finger01
-    400138: Bip01 R Finger02
-    400140: Bip01 R Finger1
-    400142: Bip01 R Finger11
-    400144: Bip01 R Finger12
-    400146: Bip01 R Finger2
-    400148: Bip01 R Finger21
-    400150: Bip01 R Finger22
-    400152: Bip01 R Finger3
-    400154: Bip01 R Finger31
-    400156: Bip01 R Finger32
-    400158: Bip01 R Finger4
-    400160: Bip01 R Finger41
-    400162: Bip01 R Finger42
-    400164: Bip01 R Foot
-    400166: Bip01 R Forearm
-    400168: Bip01 R ForeTwist
-    400170: Bip01 R ForeTwist1
-    400172: Bip01 R Hand
-    400174: Bip01 R Thigh
-    400176: Bip01 R Toe0
-    400178: Bip01 R UpperArm
-    400180: Bip01 Rhand_Weapon
-    400182: Bip01 Rhand_WeaponOpp
-    400184: Bip01 right_Wmount
-    400186: Bip01 RUpArmTwist
-    400188: Bip01 RUpArmTwist1
-    400190: Bip01 shield_mount
-    400192: Bip01 Spine
-    400194: Bip01 Spine1
-    400196: Bip01 zeye_left
-    400198: Bip01 zeye_right
-    400200: Bip01 zJaw
-    400202: Bip01 zz_eye_left_lookAt
-    400204: Bip01 zz_eye_right_lookA
-    2300000: Adam_Adv_Bread
-    2300002: Adam_Arrow_Adv01
-    2300004: Adam_Arrow_Adv02
-    2300006: Adam_Arrow_Adv03
-    2300008: Adam_Arrow_Adv04
-    2300010: Adam_Arrow_Adv05
-    2300012: Adam_Bow_Adv_Back
-    2300014: Adam_Bow_Adv_Hand_animation_controller01
-    2300016: Adam_Bow_Adv_Hand_Main_Bone01
-    2300018: Adam_Quiver_Adv
-    2300020: Adam_Scabbard_adv_Left
-    2300022: Adam_Scabbard_adv_Right
-    2300024: Adam_Shield_Adv_Back
-    2300026: Adam_Shield_Adv_Hand
-    2300028: Adam_Sword_Adv_Back_Left
-    2300030: Adam_Sword_Adv_Hand_Left
-    2300032: Adam_Sword_Adv_Hand_Right
-    2300034: AdamArrow_Adv_Hand
-    2300036: Adamm_Sword_Adv_Back_Right
-    3300000: Adam_Adv_Bread
-    3300002: Adam_Arrow_Adv01
-    3300004: Adam_Arrow_Adv02
-    3300006: Adam_Arrow_Adv03
-    3300008: Adam_Arrow_Adv04
-    3300010: Adam_Arrow_Adv05
-    3300012: Adam_Bow_Adv_Back
-    3300014: Adam_Bow_Adv_Hand_animation_controller01
-    3300016: Adam_Bow_Adv_Hand_Main_Bone01
-    3300018: Adam_Quiver_Adv
-    3300020: Adam_Scabbard_adv_Left
-    3300022: Adam_Scabbard_adv_Right
-    3300024: Adam_Shield_Adv_Back
-    3300026: Adam_Shield_Adv_Hand
-    3300028: Adam_Sword_Adv_Back_Left
-    3300030: Adam_Sword_Adv_Hand_Left
-    3300032: Adam_Sword_Adv_Hand_Right
-    3300034: AdamArrow_Adv_Hand
-    3300036: Adamm_Sword_Adv_Back_Right
-    4300000: Adam_Bow_Adv_Back
-    4300002: Adam_Scabbard_adv_Left
-    4300004: Adam_Sword_Adv_Back_Left
-    4300006: Adam_Quiver_Adv
-    4300008: Adam_Arrow_Adv02
-    4300010: Adam_Arrow_Adv03
-    4300012: Adam_Arrow_Adv04
-    4300014: Adam_Arrow_Adv05
-    4300016: Adam_Arrow_Adv01
-    4300018: Adam_Scabbard_adv_Right
-    4300020: Adamm_Sword_Adv_Back_Right
-    4300022: Adam_Shield_Adv_Back
-    4300024: AdamArrow_Adv_Hand
-    4300026: Adam_Sword_Adv_Hand_Right
-    4300028: Adam_Bow_Adv_Hand_Main_Bone01
-    4300030: Adam_Bow_Adv_Hand_animation_controller01
-    4300032: Adam_Sword_Adv_Hand_Left
-    4300034: Adam_Shield_Adv_Hand
-    4300036: Adam_body_All
-    4300038: Adam_Bow_Adv_Hand
-    4300040: Adv_Adam_Hair
-    4300042: Adam_Adv_Bread
-    4300044: Adam_Adv_Gloves
-    4300046: Adam_Adv_paints
-    4300048: Adam_Adv_Boots
-    4300050: Adam_Adv_Belt
-    4300052: Adam_Adv_Shirt
-    4300054: Adam_Adv_Jerkin
-    4300056: Adam_Adv_Hood
-    7400000: S_Drinking
-    7400002: S_Eating
-    7400004: S_Explanation
-    7400006: S_IDLE
-    7400008: S_Kiss
-    7400010: S_Looking_around
-    7400012: S_making_item
-    7400014: S_Reject
-    7400016: S_Talking_B
-    7400018: S_Use_object
-    7400020: M_Run
-    7400022: M_Run_Jump
-    7400024: M_Sneaking
-    7400026: M_strafe_run_left
-    7400028: M_strafe_run_right
-    7400030: M_Strife_leftt
-    7400032: M_Strife_right
-    7400034: M_walk
-    7400036: M_Jump_Walking
-    7400038: M_Walking_back_B
-    7400040: M_Walking_With_Tourch
-    7400042: M_combat_mode_C
-    7400044: M_buff_spell_A
-    7400046: M_buff_spell_B
-    7400048: M_Drinking_potion
-    7400050: M_fire_ball_strong_spell
-    7400052: M_speil_fast_loop
-    7400054: M_speil_magic_trap
-    7400056: M_speil_summoning
-    7400058: M_spell_Barier_start
-    7400060: M_spell_Barier_keep
-    7400062: M_spell_Barier_end
-    7400064: M_spell_cast_A
-    7400066: M_spell_curse
-    7400068: M_spell_sleep
-    7400070: M_Dying_A
-    7400072: 1H_PutWeapon_Back
-    7400074: 1H_TookWeaponOut
-    7400076: 1H_5X_Combo
-    7400078: 1H_COMBAT_mode
-    7400080: 1H_Hit_from_back
-    7400082: 1H_Hit_from_front
-    7400084: 1H_moveTOblock
-    7400086: 1H_shield_block_keeping
-    7400088: 1H_moveFROMblock
-    7400090: 1H_shield_block_high_right
-    7400092: 1H_shield_block_high_left
-    7400094: 1H_sword_parry_high_left
-    7400096: 1H_sword_parry_high_right
-    7400098: 1H_sword_shield_blow
-    7400100: 1H_sword_swing_high_left
-    7400102: 1H_sword_swing_high_right
-    7400104: 1H_sword_swing_high_straight_down
-    7400106: 1H_sword_swing_low_left
-    7400108: 1H_sword_swing_low_right
-    7400110: 1H_sword_thrust_high
-    7400112: 1H_Die_fall_backward
-    7400114: 1H_Die_fall_forward
-    7400116: 1H_banging_shield
-    7400118: 1H_Casual_walk
-    7400120: 1H_walk_left_swing
-    7400122: 1H_walk_right_swing
-    7400124: 1H_walk_trust
-    7400126: 1H_Cautious_walk
-    7400128: 1H_combat_run
-    7400130: Archer_putBow_back
-    7400132: Archer_takeBow_out
-    7400134: Archer_COMBAT_mode
-    7400136: Archer_dodge_backwards
-    7400138: Archer_Hit_from_back
-    7400140: Archer_Hit_from_front
-    7400142: Archer_get_arrow_fromBack
-    7400144: Archer_charging
-    7400146: Archer_aim
-    7400148: Archer_shot_loop
-    7400150: Archer_aim_fromLeft_toRight
-    7400152: Archer_aim_fromUp_toDown
-    7400154: Archer_aiming_up_45_d
-    7400156: Archer_shot_loop_45up
-    7400158: Archer_Dying
-    7400160: Archer_run_combat
-    7400162: Archer_walk_Combat
-    7400164: Archer_walk_get_arrow_fromBack
-    7400166: Archer_walk_charging
-    7400168: Archer_walk_Aim
-    7400170: Archer_walk_shot_Loop
-    7400172: Archer_strife_left_Aim
-    7400174: Archer_strife_right_Aim
-    7400176: Archer_walking_back
-    7400178: RM_strafe_run_left
-    7400180: RM_strafe_run_right
-    7400182: RM_Strife_leftt
-    7400184: RM_Strife_right
-    7400186: RM_1H_Casual_walk
-    7400188: RM_1H_Cautious_walk
-    7400190: RM_1H_walk_left_swing
-    7400192: RM_1H_walk_right_swing
-    7400194: RM_1H_walk_trust
-    7400196: RM_1H_combat_run
-    7400198: RM_Run
-    7400200: RM_Run_Jump
-    7400202: RM_Sneaking
-    7400204: RM_walk
-    7400206: RM_Jump_Walking
-    7400208: RM_Walking_back_B
-    7400210: RM_Walking_With_Tourch
-    7400212: RM_Archer_run_combat
-    7400214: RM_Archer_walking_back
-    7400216: RM_Archer_strife_left_Aim
-    7400218: RM_Archer_strife_right_Aim
-    7400220: RM_Archer_walk_
-    7400222: RM_Archer_walk_get_arrow_fromBack
-    7400224: RM_Archer_walk_charging
-    7400226: RM_Archer_walk_Aim
-    7400228: RM_Archer_walk_shot_Loop
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Adam_Adv_Belt
-    13700002: Adam_Adv_Boots
-    13700004: Adam_Adv_Gloves
-    13700006: Adam_Adv_Hood
-    13700008: Adam_Adv_Jerkin
-    13700010: Adam_Adv_paints
-    13700012: Adam_Adv_Shirt
-    13700014: Adam_body_All
-    13700016: Adam_Bow_Adv_Hand
-    13700018: Adv_Adam_Hair
-    13700020: Adam_Adv_Bread
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Adam_Adv_Belt
+  - first:
+      1: 100002
+    second: Adam_Adv_Boots
+  - first:
+      1: 100004
+    second: Adam_Adv_Bread
+  - first:
+      1: 100006
+    second: Adam_Adv_Gloves
+  - first:
+      1: 100008
+    second: Adam_Adv_Hood
+  - first:
+      1: 100010
+    second: Adam_Adv_Jerkin
+  - first:
+      1: 100012
+    second: Adam_Adv_paints
+  - first:
+      1: 100014
+    second: Adam_Adv_Shirt
+  - first:
+      1: 100016
+    second: Adam_Arrow_Adv01
+  - first:
+      1: 100018
+    second: Adam_Arrow_Adv02
+  - first:
+      1: 100020
+    second: Adam_Arrow_Adv03
+  - first:
+      1: 100022
+    second: Adam_Arrow_Adv04
+  - first:
+      1: 100024
+    second: Adam_Arrow_Adv05
+  - first:
+      1: 100026
+    second: Adam_body_All
+  - first:
+      1: 100028
+    second: Adam_Bow_Adv_Back
+  - first:
+      1: 100030
+    second: Adam_Bow_Adv_Hand
+  - first:
+      1: 100032
+    second: Adam_Bow_Adv_Hand_animation_controller01
+  - first:
+      1: 100034
+    second: Adam_Bow_Adv_Hand_Main_Bone01
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      1: 100038
+    second: Adam_Quiver_Adv
+  - first:
+      1: 100040
+    second: Adam_Scabbard_adv_Left
+  - first:
+      1: 100042
+    second: Adam_Scabbard_adv_Right
+  - first:
+      1: 100044
+    second: Adam_Shield_Adv_Back
+  - first:
+      1: 100046
+    second: Adam_Shield_Adv_Hand
+  - first:
+      1: 100048
+    second: Adam_Sword_Adv_Back_Left
+  - first:
+      1: 100050
+    second: Adam_Sword_Adv_Hand_Left
+  - first:
+      1: 100052
+    second: Adam_Sword_Adv_Hand_Right
+  - first:
+      1: 100054
+    second: AdamArrow_Adv_Hand
+  - first:
+      1: 100056
+    second: Adamm_Sword_Adv_Back_Right
+  - first:
+      1: 100058
+    second: Adv_Adam_Hair
+  - first:
+      1: 100060
+    second: Bip01
+  - first:
+      1: 100062
+    second: Bip01 back_left_Wmount
+  - first:
+      1: 100064
+    second: Bip01 back_right_Wmount
+  - first:
+      1: 100066
+    second: Bip01 back_shield_mount
+  - first:
+      1: 100068
+    second: Bip01 Head
+  - first:
+      1: 100070
+    second: Bip01 L Calf
+  - first:
+      1: 100072
+    second: Bip01 L Clavicle
+  - first:
+      1: 100074
+    second: Bip01 L Finger0
+  - first:
+      1: 100076
+    second: Bip01 L Finger01
+  - first:
+      1: 100078
+    second: Bip01 L Finger02
+  - first:
+      1: 100080
+    second: Bip01 L Finger1
+  - first:
+      1: 100082
+    second: Bip01 L Finger11
+  - first:
+      1: 100084
+    second: Bip01 L Finger12
+  - first:
+      1: 100086
+    second: Bip01 L Finger2
+  - first:
+      1: 100088
+    second: Bip01 L Finger21
+  - first:
+      1: 100090
+    second: Bip01 L Finger22
+  - first:
+      1: 100092
+    second: Bip01 L Finger3
+  - first:
+      1: 100094
+    second: Bip01 L Finger31
+  - first:
+      1: 100096
+    second: Bip01 L Finger32
+  - first:
+      1: 100098
+    second: Bip01 L Finger4
+  - first:
+      1: 100100
+    second: Bip01 L Finger41
+  - first:
+      1: 100102
+    second: Bip01 L Finger42
+  - first:
+      1: 100104
+    second: Bip01 L Foot
+  - first:
+      1: 100106
+    second: Bip01 L Forearm
+  - first:
+      1: 100108
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100110
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100112
+    second: Bip01 L Hand
+  - first:
+      1: 100114
+    second: Bip01 L Thigh
+  - first:
+      1: 100116
+    second: Bip01 L Toe0
+  - first:
+      1: 100118
+    second: Bip01 L UpperArm
+  - first:
+      1: 100120
+    second: Bip01 left_Wmount
+  - first:
+      1: 100122
+    second: Bip01 LUpArmTwist
+  - first:
+      1: 100124
+    second: Bip01 LUpArmTwist1
+  - first:
+      1: 100126
+    second: Bip01 Neck
+  - first:
+      1: 100128
+    second: Bip01 Pelvis
+  - first:
+      1: 100130
+    second: Bip01 R Calf
+  - first:
+      1: 100132
+    second: Bip01 R Clavicle
+  - first:
+      1: 100134
+    second: Bip01 R Finger0
+  - first:
+      1: 100136
+    second: Bip01 R Finger01
+  - first:
+      1: 100138
+    second: Bip01 R Finger02
+  - first:
+      1: 100140
+    second: Bip01 R Finger1
+  - first:
+      1: 100142
+    second: Bip01 R Finger11
+  - first:
+      1: 100144
+    second: Bip01 R Finger12
+  - first:
+      1: 100146
+    second: Bip01 R Finger2
+  - first:
+      1: 100148
+    second: Bip01 R Finger21
+  - first:
+      1: 100150
+    second: Bip01 R Finger22
+  - first:
+      1: 100152
+    second: Bip01 R Finger3
+  - first:
+      1: 100154
+    second: Bip01 R Finger31
+  - first:
+      1: 100156
+    second: Bip01 R Finger32
+  - first:
+      1: 100158
+    second: Bip01 R Finger4
+  - first:
+      1: 100160
+    second: Bip01 R Finger41
+  - first:
+      1: 100162
+    second: Bip01 R Finger42
+  - first:
+      1: 100164
+    second: Bip01 R Foot
+  - first:
+      1: 100166
+    second: Bip01 R Forearm
+  - first:
+      1: 100168
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100170
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100172
+    second: Bip01 R Hand
+  - first:
+      1: 100174
+    second: Bip01 R Thigh
+  - first:
+      1: 100176
+    second: Bip01 R Toe0
+  - first:
+      1: 100178
+    second: Bip01 R UpperArm
+  - first:
+      1: 100180
+    second: Bip01 Rhand_Weapon
+  - first:
+      1: 100182
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      1: 100184
+    second: Bip01 right_Wmount
+  - first:
+      1: 100186
+    second: Bip01 RUpArmTwist
+  - first:
+      1: 100188
+    second: Bip01 RUpArmTwist1
+  - first:
+      1: 100190
+    second: Bip01 shield_mount
+  - first:
+      1: 100192
+    second: Bip01 Spine
+  - first:
+      1: 100194
+    second: Bip01 Spine1
+  - first:
+      1: 100196
+    second: Bip01 zeye_left
+  - first:
+      1: 100198
+    second: Bip01 zeye_right
+  - first:
+      1: 100200
+    second: Bip01 zJaw
+  - first:
+      1: 100202
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      1: 100204
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      4: 400000
+    second: Adam_Adv_Belt
+  - first:
+      4: 400002
+    second: Adam_Adv_Boots
+  - first:
+      4: 400004
+    second: Adam_Adv_Bread
+  - first:
+      4: 400006
+    second: Adam_Adv_Gloves
+  - first:
+      4: 400008
+    second: Adam_Adv_Hood
+  - first:
+      4: 400010
+    second: Adam_Adv_Jerkin
+  - first:
+      4: 400012
+    second: Adam_Adv_paints
+  - first:
+      4: 400014
+    second: Adam_Adv_Shirt
+  - first:
+      4: 400016
+    second: Adam_Arrow_Adv01
+  - first:
+      4: 400018
+    second: Adam_Arrow_Adv02
+  - first:
+      4: 400020
+    second: Adam_Arrow_Adv03
+  - first:
+      4: 400022
+    second: Adam_Arrow_Adv04
+  - first:
+      4: 400024
+    second: Adam_Arrow_Adv05
+  - first:
+      4: 400026
+    second: Adam_body_All
+  - first:
+      4: 400028
+    second: Adam_Bow_Adv_Back
+  - first:
+      4: 400030
+    second: Adam_Bow_Adv_Hand
+  - first:
+      4: 400032
+    second: Adam_Bow_Adv_Hand_animation_controller01
+  - first:
+      4: 400034
+    second: Adam_Bow_Adv_Hand_Main_Bone01
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      4: 400038
+    second: Adam_Quiver_Adv
+  - first:
+      4: 400040
+    second: Adam_Scabbard_adv_Left
+  - first:
+      4: 400042
+    second: Adam_Scabbard_adv_Right
+  - first:
+      4: 400044
+    second: Adam_Shield_Adv_Back
+  - first:
+      4: 400046
+    second: Adam_Shield_Adv_Hand
+  - first:
+      4: 400048
+    second: Adam_Sword_Adv_Back_Left
+  - first:
+      4: 400050
+    second: Adam_Sword_Adv_Hand_Left
+  - first:
+      4: 400052
+    second: Adam_Sword_Adv_Hand_Right
+  - first:
+      4: 400054
+    second: AdamArrow_Adv_Hand
+  - first:
+      4: 400056
+    second: Adamm_Sword_Adv_Back_Right
+  - first:
+      4: 400058
+    second: Adv_Adam_Hair
+  - first:
+      4: 400060
+    second: Bip01
+  - first:
+      4: 400062
+    second: Bip01 back_left_Wmount
+  - first:
+      4: 400064
+    second: Bip01 back_right_Wmount
+  - first:
+      4: 400066
+    second: Bip01 back_shield_mount
+  - first:
+      4: 400068
+    second: Bip01 Head
+  - first:
+      4: 400070
+    second: Bip01 L Calf
+  - first:
+      4: 400072
+    second: Bip01 L Clavicle
+  - first:
+      4: 400074
+    second: Bip01 L Finger0
+  - first:
+      4: 400076
+    second: Bip01 L Finger01
+  - first:
+      4: 400078
+    second: Bip01 L Finger02
+  - first:
+      4: 400080
+    second: Bip01 L Finger1
+  - first:
+      4: 400082
+    second: Bip01 L Finger11
+  - first:
+      4: 400084
+    second: Bip01 L Finger12
+  - first:
+      4: 400086
+    second: Bip01 L Finger2
+  - first:
+      4: 400088
+    second: Bip01 L Finger21
+  - first:
+      4: 400090
+    second: Bip01 L Finger22
+  - first:
+      4: 400092
+    second: Bip01 L Finger3
+  - first:
+      4: 400094
+    second: Bip01 L Finger31
+  - first:
+      4: 400096
+    second: Bip01 L Finger32
+  - first:
+      4: 400098
+    second: Bip01 L Finger4
+  - first:
+      4: 400100
+    second: Bip01 L Finger41
+  - first:
+      4: 400102
+    second: Bip01 L Finger42
+  - first:
+      4: 400104
+    second: Bip01 L Foot
+  - first:
+      4: 400106
+    second: Bip01 L Forearm
+  - first:
+      4: 400108
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400110
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400112
+    second: Bip01 L Hand
+  - first:
+      4: 400114
+    second: Bip01 L Thigh
+  - first:
+      4: 400116
+    second: Bip01 L Toe0
+  - first:
+      4: 400118
+    second: Bip01 L UpperArm
+  - first:
+      4: 400120
+    second: Bip01 left_Wmount
+  - first:
+      4: 400122
+    second: Bip01 LUpArmTwist
+  - first:
+      4: 400124
+    second: Bip01 LUpArmTwist1
+  - first:
+      4: 400126
+    second: Bip01 Neck
+  - first:
+      4: 400128
+    second: Bip01 Pelvis
+  - first:
+      4: 400130
+    second: Bip01 R Calf
+  - first:
+      4: 400132
+    second: Bip01 R Clavicle
+  - first:
+      4: 400134
+    second: Bip01 R Finger0
+  - first:
+      4: 400136
+    second: Bip01 R Finger01
+  - first:
+      4: 400138
+    second: Bip01 R Finger02
+  - first:
+      4: 400140
+    second: Bip01 R Finger1
+  - first:
+      4: 400142
+    second: Bip01 R Finger11
+  - first:
+      4: 400144
+    second: Bip01 R Finger12
+  - first:
+      4: 400146
+    second: Bip01 R Finger2
+  - first:
+      4: 400148
+    second: Bip01 R Finger21
+  - first:
+      4: 400150
+    second: Bip01 R Finger22
+  - first:
+      4: 400152
+    second: Bip01 R Finger3
+  - first:
+      4: 400154
+    second: Bip01 R Finger31
+  - first:
+      4: 400156
+    second: Bip01 R Finger32
+  - first:
+      4: 400158
+    second: Bip01 R Finger4
+  - first:
+      4: 400160
+    second: Bip01 R Finger41
+  - first:
+      4: 400162
+    second: Bip01 R Finger42
+  - first:
+      4: 400164
+    second: Bip01 R Foot
+  - first:
+      4: 400166
+    second: Bip01 R Forearm
+  - first:
+      4: 400168
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400170
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400172
+    second: Bip01 R Hand
+  - first:
+      4: 400174
+    second: Bip01 R Thigh
+  - first:
+      4: 400176
+    second: Bip01 R Toe0
+  - first:
+      4: 400178
+    second: Bip01 R UpperArm
+  - first:
+      4: 400180
+    second: Bip01 Rhand_Weapon
+  - first:
+      4: 400182
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      4: 400184
+    second: Bip01 right_Wmount
+  - first:
+      4: 400186
+    second: Bip01 RUpArmTwist
+  - first:
+      4: 400188
+    second: Bip01 RUpArmTwist1
+  - first:
+      4: 400190
+    second: Bip01 shield_mount
+  - first:
+      4: 400192
+    second: Bip01 Spine
+  - first:
+      4: 400194
+    second: Bip01 Spine1
+  - first:
+      4: 400196
+    second: Bip01 zeye_left
+  - first:
+      4: 400198
+    second: Bip01 zeye_right
+  - first:
+      4: 400200
+    second: Bip01 zJaw
+  - first:
+      4: 400202
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      4: 400204
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      23: 2300000
+    second: Adam_Adv_Bread
+  - first:
+      23: 2300002
+    second: Adam_Arrow_Adv01
+  - first:
+      23: 2300004
+    second: Adam_Arrow_Adv02
+  - first:
+      23: 2300006
+    second: Adam_Arrow_Adv03
+  - first:
+      23: 2300008
+    second: Adam_Arrow_Adv04
+  - first:
+      23: 2300010
+    second: Adam_Arrow_Adv05
+  - first:
+      23: 2300012
+    second: Adam_Bow_Adv_Back
+  - first:
+      23: 2300014
+    second: Adam_Bow_Adv_Hand_animation_controller01
+  - first:
+      23: 2300016
+    second: Adam_Bow_Adv_Hand_Main_Bone01
+  - first:
+      23: 2300018
+    second: Adam_Quiver_Adv
+  - first:
+      23: 2300020
+    second: Adam_Scabbard_adv_Left
+  - first:
+      23: 2300022
+    second: Adam_Scabbard_adv_Right
+  - first:
+      23: 2300024
+    second: Adam_Shield_Adv_Back
+  - first:
+      23: 2300026
+    second: Adam_Shield_Adv_Hand
+  - first:
+      23: 2300028
+    second: Adam_Sword_Adv_Back_Left
+  - first:
+      23: 2300030
+    second: Adam_Sword_Adv_Hand_Left
+  - first:
+      23: 2300032
+    second: Adam_Sword_Adv_Hand_Right
+  - first:
+      23: 2300034
+    second: AdamArrow_Adv_Hand
+  - first:
+      23: 2300036
+    second: Adamm_Sword_Adv_Back_Right
+  - first:
+      33: 3300000
+    second: Adam_Adv_Bread
+  - first:
+      33: 3300002
+    second: Adam_Arrow_Adv01
+  - first:
+      33: 3300004
+    second: Adam_Arrow_Adv02
+  - first:
+      33: 3300006
+    second: Adam_Arrow_Adv03
+  - first:
+      33: 3300008
+    second: Adam_Arrow_Adv04
+  - first:
+      33: 3300010
+    second: Adam_Arrow_Adv05
+  - first:
+      33: 3300012
+    second: Adam_Bow_Adv_Back
+  - first:
+      33: 3300014
+    second: Adam_Bow_Adv_Hand_animation_controller01
+  - first:
+      33: 3300016
+    second: Adam_Bow_Adv_Hand_Main_Bone01
+  - first:
+      33: 3300018
+    second: Adam_Quiver_Adv
+  - first:
+      33: 3300020
+    second: Adam_Scabbard_adv_Left
+  - first:
+      33: 3300022
+    second: Adam_Scabbard_adv_Right
+  - first:
+      33: 3300024
+    second: Adam_Shield_Adv_Back
+  - first:
+      33: 3300026
+    second: Adam_Shield_Adv_Hand
+  - first:
+      33: 3300028
+    second: Adam_Sword_Adv_Back_Left
+  - first:
+      33: 3300030
+    second: Adam_Sword_Adv_Hand_Left
+  - first:
+      33: 3300032
+    second: Adam_Sword_Adv_Hand_Right
+  - first:
+      33: 3300034
+    second: AdamArrow_Adv_Hand
+  - first:
+      33: 3300036
+    second: Adamm_Sword_Adv_Back_Right
+  - first:
+      43: 4300000
+    second: Adam_Bow_Adv_Back
+  - first:
+      43: 4300002
+    second: Adam_Scabbard_adv_Left
+  - first:
+      43: 4300004
+    second: Adam_Sword_Adv_Back_Left
+  - first:
+      43: 4300006
+    second: Adam_Quiver_Adv
+  - first:
+      43: 4300008
+    second: Adam_Arrow_Adv02
+  - first:
+      43: 4300010
+    second: Adam_Arrow_Adv03
+  - first:
+      43: 4300012
+    second: Adam_Arrow_Adv04
+  - first:
+      43: 4300014
+    second: Adam_Arrow_Adv05
+  - first:
+      43: 4300016
+    second: Adam_Arrow_Adv01
+  - first:
+      43: 4300018
+    second: Adam_Scabbard_adv_Right
+  - first:
+      43: 4300020
+    second: Adamm_Sword_Adv_Back_Right
+  - first:
+      43: 4300022
+    second: Adam_Shield_Adv_Back
+  - first:
+      43: 4300024
+    second: AdamArrow_Adv_Hand
+  - first:
+      43: 4300026
+    second: Adam_Sword_Adv_Hand_Right
+  - first:
+      43: 4300028
+    second: Adam_Bow_Adv_Hand_Main_Bone01
+  - first:
+      43: 4300030
+    second: Adam_Bow_Adv_Hand_animation_controller01
+  - first:
+      43: 4300032
+    second: Adam_Sword_Adv_Hand_Left
+  - first:
+      43: 4300034
+    second: Adam_Shield_Adv_Hand
+  - first:
+      43: 4300036
+    second: Adam_body_All
+  - first:
+      43: 4300038
+    second: Adam_Bow_Adv_Hand
+  - first:
+      43: 4300040
+    second: Adv_Adam_Hair
+  - first:
+      43: 4300042
+    second: Adam_Adv_Bread
+  - first:
+      43: 4300044
+    second: Adam_Adv_Gloves
+  - first:
+      43: 4300046
+    second: Adam_Adv_paints
+  - first:
+      43: 4300048
+    second: Adam_Adv_Boots
+  - first:
+      43: 4300050
+    second: Adam_Adv_Belt
+  - first:
+      43: 4300052
+    second: Adam_Adv_Shirt
+  - first:
+      43: 4300054
+    second: Adam_Adv_Jerkin
+  - first:
+      43: 4300056
+    second: Adam_Adv_Hood
+  - first:
+      74: 7400000
+    second: S_Drinking
+  - first:
+      74: 7400002
+    second: S_Eating
+  - first:
+      74: 7400004
+    second: S_Explanation
+  - first:
+      74: 7400006
+    second: S_IDLE
+  - first:
+      74: 7400008
+    second: S_Kiss
+  - first:
+      74: 7400010
+    second: S_Looking_around
+  - first:
+      74: 7400012
+    second: S_making_item
+  - first:
+      74: 7400014
+    second: S_Reject
+  - first:
+      74: 7400016
+    second: S_Talking_B
+  - first:
+      74: 7400018
+    second: S_Use_object
+  - first:
+      74: 7400020
+    second: M_Run
+  - first:
+      74: 7400022
+    second: M_Run_Jump
+  - first:
+      74: 7400024
+    second: M_Sneaking
+  - first:
+      74: 7400026
+    second: M_strafe_run_left
+  - first:
+      74: 7400028
+    second: M_strafe_run_right
+  - first:
+      74: 7400030
+    second: M_Strife_leftt
+  - first:
+      74: 7400032
+    second: M_Strife_right
+  - first:
+      74: 7400034
+    second: M_walk
+  - first:
+      74: 7400036
+    second: M_Jump_Walking
+  - first:
+      74: 7400038
+    second: M_Walking_back_B
+  - first:
+      74: 7400040
+    second: M_Walking_With_Tourch
+  - first:
+      74: 7400042
+    second: M_combat_mode_C
+  - first:
+      74: 7400044
+    second: M_buff_spell_A
+  - first:
+      74: 7400046
+    second: M_buff_spell_B
+  - first:
+      74: 7400048
+    second: M_Drinking_potion
+  - first:
+      74: 7400050
+    second: M_fire_ball_strong_spell
+  - first:
+      74: 7400052
+    second: M_speil_fast_loop
+  - first:
+      74: 7400054
+    second: M_speil_magic_trap
+  - first:
+      74: 7400056
+    second: M_speil_summoning
+  - first:
+      74: 7400058
+    second: M_spell_Barier_start
+  - first:
+      74: 7400060
+    second: M_spell_Barier_keep
+  - first:
+      74: 7400062
+    second: M_spell_Barier_end
+  - first:
+      74: 7400064
+    second: M_spell_cast_A
+  - first:
+      74: 7400066
+    second: M_spell_curse
+  - first:
+      74: 7400068
+    second: M_spell_sleep
+  - first:
+      74: 7400070
+    second: M_Dying_A
+  - first:
+      74: 7400072
+    second: 1H_PutWeapon_Back
+  - first:
+      74: 7400074
+    second: 1H_TookWeaponOut
+  - first:
+      74: 7400076
+    second: 1H_5X_Combo
+  - first:
+      74: 7400078
+    second: 1H_COMBAT_mode
+  - first:
+      74: 7400080
+    second: 1H_Hit_from_back
+  - first:
+      74: 7400082
+    second: 1H_Hit_from_front
+  - first:
+      74: 7400084
+    second: 1H_moveTOblock
+  - first:
+      74: 7400086
+    second: 1H_shield_block_keeping
+  - first:
+      74: 7400088
+    second: 1H_moveFROMblock
+  - first:
+      74: 7400090
+    second: 1H_shield_block_high_right
+  - first:
+      74: 7400092
+    second: 1H_shield_block_high_left
+  - first:
+      74: 7400094
+    second: 1H_sword_parry_high_left
+  - first:
+      74: 7400096
+    second: 1H_sword_parry_high_right
+  - first:
+      74: 7400098
+    second: 1H_sword_shield_blow
+  - first:
+      74: 7400100
+    second: 1H_sword_swing_high_left
+  - first:
+      74: 7400102
+    second: 1H_sword_swing_high_right
+  - first:
+      74: 7400104
+    second: 1H_sword_swing_high_straight_down
+  - first:
+      74: 7400106
+    second: 1H_sword_swing_low_left
+  - first:
+      74: 7400108
+    second: 1H_sword_swing_low_right
+  - first:
+      74: 7400110
+    second: 1H_sword_thrust_high
+  - first:
+      74: 7400112
+    second: 1H_Die_fall_backward
+  - first:
+      74: 7400114
+    second: 1H_Die_fall_forward
+  - first:
+      74: 7400116
+    second: 1H_banging_shield
+  - first:
+      74: 7400118
+    second: 1H_Casual_walk
+  - first:
+      74: 7400120
+    second: 1H_walk_left_swing
+  - first:
+      74: 7400122
+    second: 1H_walk_right_swing
+  - first:
+      74: 7400124
+    second: 1H_walk_trust
+  - first:
+      74: 7400126
+    second: 1H_Cautious_walk
+  - first:
+      74: 7400128
+    second: 1H_combat_run
+  - first:
+      74: 7400130
+    second: Archer_putBow_back
+  - first:
+      74: 7400132
+    second: Archer_takeBow_out
+  - first:
+      74: 7400134
+    second: Archer_COMBAT_mode
+  - first:
+      74: 7400136
+    second: Archer_dodge_backwards
+  - first:
+      74: 7400138
+    second: Archer_Hit_from_back
+  - first:
+      74: 7400140
+    second: Archer_Hit_from_front
+  - first:
+      74: 7400142
+    second: Archer_get_arrow_fromBack
+  - first:
+      74: 7400144
+    second: Archer_charging
+  - first:
+      74: 7400146
+    second: Archer_aim
+  - first:
+      74: 7400148
+    second: Archer_shot_loop
+  - first:
+      74: 7400150
+    second: Archer_aim_fromLeft_toRight
+  - first:
+      74: 7400152
+    second: Archer_aim_fromUp_toDown
+  - first:
+      74: 7400154
+    second: Archer_aiming_up_45_d
+  - first:
+      74: 7400156
+    second: Archer_shot_loop_45up
+  - first:
+      74: 7400158
+    second: Archer_Dying
+  - first:
+      74: 7400160
+    second: Archer_run_combat
+  - first:
+      74: 7400162
+    second: Archer_walk_Combat
+  - first:
+      74: 7400164
+    second: Archer_walk_get_arrow_fromBack
+  - first:
+      74: 7400166
+    second: Archer_walk_charging
+  - first:
+      74: 7400168
+    second: Archer_walk_Aim
+  - first:
+      74: 7400170
+    second: Archer_walk_shot_Loop
+  - first:
+      74: 7400172
+    second: Archer_strife_left_Aim
+  - first:
+      74: 7400174
+    second: Archer_strife_right_Aim
+  - first:
+      74: 7400176
+    second: Archer_walking_back
+  - first:
+      74: 7400178
+    second: RM_strafe_run_left
+  - first:
+      74: 7400180
+    second: RM_strafe_run_right
+  - first:
+      74: 7400182
+    second: RM_Strife_leftt
+  - first:
+      74: 7400184
+    second: RM_Strife_right
+  - first:
+      74: 7400186
+    second: RM_1H_Casual_walk
+  - first:
+      74: 7400188
+    second: RM_1H_Cautious_walk
+  - first:
+      74: 7400190
+    second: RM_1H_walk_left_swing
+  - first:
+      74: 7400192
+    second: RM_1H_walk_right_swing
+  - first:
+      74: 7400194
+    second: RM_1H_walk_trust
+  - first:
+      74: 7400196
+    second: RM_1H_combat_run
+  - first:
+      74: 7400198
+    second: RM_Run
+  - first:
+      74: 7400200
+    second: RM_Run_Jump
+  - first:
+      74: 7400202
+    second: RM_Sneaking
+  - first:
+      74: 7400204
+    second: RM_walk
+  - first:
+      74: 7400206
+    second: RM_Jump_Walking
+  - first:
+      74: 7400208
+    second: RM_Walking_back_B
+  - first:
+      74: 7400210
+    second: RM_Walking_With_Tourch
+  - first:
+      74: 7400212
+    second: RM_Archer_run_combat
+  - first:
+      74: 7400214
+    second: RM_Archer_walking_back
+  - first:
+      74: 7400216
+    second: RM_Archer_strife_left_Aim
+  - first:
+      74: 7400218
+    second: RM_Archer_strife_right_Aim
+  - first:
+      74: 7400220
+    second: RM_Archer_walk_
+  - first:
+      74: 7400222
+    second: RM_Archer_walk_get_arrow_fromBack
+  - first:
+      74: 7400224
+    second: RM_Archer_walk_charging
+  - first:
+      74: 7400226
+    second: RM_Archer_walk_Aim
+  - first:
+      74: 7400228
+    second: RM_Archer_walk_shot_Loop
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Adam_Adv_Belt
+  - first:
+      137: 13700002
+    second: Adam_Adv_Boots
+  - first:
+      137: 13700004
+    second: Adam_Adv_Gloves
+  - first:
+      137: 13700006
+    second: Adam_Adv_Hood
+  - first:
+      137: 13700008
+    second: Adam_Adv_Jerkin
+  - first:
+      137: 13700010
+    second: Adam_Adv_paints
+  - first:
+      137: 13700012
+    second: Adam_Adv_Shirt
+  - first:
+      137: 13700014
+    second: Adam_body_All
+  - first:
+      137: 13700016
+    second: Adam_Bow_Adv_Hand
+  - first:
+      137: 13700018
+    second: Adv_Adam_Hair
+  - first:
+      137: 13700020
+    second: Adam_Adv_Bread
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adam_Adv_Clothes
+    second: {fileID: 2100000, guid: 4b37642bee14d634bbcbee160ab4ccf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adam_Adv_Hood
+    second: {fileID: 2100000, guid: 20ee503516ac4794ab8e1e06928e594b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adam_Body
+    second: {fileID: 2100000, guid: df5701f81e40f5344a7eb5213805a9a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adam_Eyelids
+    second: {fileID: 2100000, guid: 26eec3cd153933b4aaffd54f0854a86f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adam_Eyes
+    second: {fileID: 2100000, guid: 96ab70a917ffc2146995786be5b1a18b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adam_Head
+    second: {fileID: 2100000, guid: b621c8b433d19bf4eb98e8b994e6753a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adv_weapons_Set
+    second: {fileID: 2100000, guid: 8437901edd7cd7e4fbd2a6c0bc253844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: 533a170754f4f1449a56fb2f4ecf9a9f, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 'MuscleClip ''Adam_Full_Animated''conversion warning:
-      ''Bip01/Bip01 Pelvis/Bip01 Spine'' has translation animation. It is not supported.
-
-
-      MuscleClip ''Adam_Full_Animated''conversion warning: ''Bip01/Bip01 Pelvis/Bip01
-      Spine/Bip01 Spine1'' has translation animation. It is not supported.
-
-
-'
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01 Spine' has translation animation that
+      will be discarded.\n\t'Bip01 Spine1' has translation animation that will be
+      discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: S_Drinking
       takeName: 
+      internalID: 0
       firstFrame: 1
       lastFrame: 55
       wrapMode: 1
@@ -444,6 +1289,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -734,9 +1580,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Eating
       takeName: 
+      internalID: 0
       firstFrame: 56
       lastFrame: 176
       wrapMode: 1
@@ -744,6 +1592,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -760,9 +1609,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Explanation
       takeName: 
+      internalID: 0
       firstFrame: 177
       lastFrame: 222
       wrapMode: 1
@@ -770,6 +1621,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -786,9 +1638,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_IDLE
       takeName: 
+      internalID: 0
       firstFrame: 223
       lastFrame: 323
       wrapMode: 1
@@ -796,6 +1650,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -812,9 +1667,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Kiss
       takeName: 
+      internalID: 0
       firstFrame: 324
       lastFrame: 409
       wrapMode: 1
@@ -822,6 +1679,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -838,9 +1696,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Looking_around
       takeName: 
+      internalID: 0
       firstFrame: 410
       lastFrame: 586
       wrapMode: 1
@@ -848,6 +1708,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -864,9 +1725,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_making_item
       takeName: 
+      internalID: 0
       firstFrame: 587
       lastFrame: 617
       wrapMode: 1
@@ -874,6 +1737,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -890,9 +1754,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Reject
       takeName: 
+      internalID: 0
       firstFrame: 618
       lastFrame: 718
       wrapMode: 1
@@ -900,6 +1766,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -916,9 +1783,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Talking_B
       takeName: 
+      internalID: 0
       firstFrame: 719
       lastFrame: 854
       wrapMode: 1
@@ -926,6 +1795,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -942,9 +1812,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: S_Use_object
       takeName: 
+      internalID: 0
       firstFrame: 855
       lastFrame: 895
       wrapMode: 1
@@ -952,6 +1824,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -968,9 +1841,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Run
       takeName: 
+      internalID: 0
       firstFrame: 900
       lastFrame: 922
       wrapMode: 1
@@ -978,6 +1853,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -994,9 +1870,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Run_Jump
       takeName: 
+      internalID: 0
       firstFrame: 923
       lastFrame: 956
       wrapMode: 1
@@ -1004,6 +1882,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1020,9 +1899,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Sneaking
       takeName: 
+      internalID: 0
       firstFrame: 961
       lastFrame: 1012
       wrapMode: 1
@@ -1030,6 +1911,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1046,9 +1928,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_strafe_run_left
       takeName: 
+      internalID: 0
       firstFrame: 1017
       lastFrame: 1043
       wrapMode: 1
@@ -1056,6 +1940,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1072,9 +1957,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_strafe_run_right
       takeName: 
+      internalID: 0
       firstFrame: 1048
       lastFrame: 1074
       wrapMode: 1
@@ -1082,6 +1969,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1098,9 +1986,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Strife_leftt
       takeName: 
+      internalID: 0
       firstFrame: 1079
       lastFrame: 1114
       wrapMode: 1
@@ -1108,6 +1998,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1124,9 +2015,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Strife_right
       takeName: 
+      internalID: 0
       firstFrame: 1119
       lastFrame: 1154
       wrapMode: 1
@@ -1134,6 +2027,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1150,9 +2044,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_walk
       takeName: 
+      internalID: 0
       firstFrame: 1160
       lastFrame: 1194
       wrapMode: 1
@@ -1160,6 +2056,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1176,9 +2073,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Jump_Walking
       takeName: 
+      internalID: 0
       firstFrame: 1199
       lastFrame: 1229
       wrapMode: 1
@@ -1186,6 +2085,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1202,9 +2102,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Walking_back_B
       takeName: 
+      internalID: 0
       firstFrame: 1235
       lastFrame: 1269
       wrapMode: 1
@@ -1212,6 +2114,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1228,9 +2131,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Walking_With_Tourch
       takeName: 
+      internalID: 0
       firstFrame: 1274
       lastFrame: 1377
       wrapMode: 1
@@ -1238,6 +2143,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1254,9 +2160,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_combat_mode_C
       takeName: 
+      internalID: 0
       firstFrame: 1382
       lastFrame: 1457
       wrapMode: 1
@@ -1264,6 +2172,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1280,9 +2189,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_buff_spell_A
       takeName: 
+      internalID: 0
       firstFrame: 1458
       lastFrame: 1508
       wrapMode: 1
@@ -1290,6 +2201,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1306,9 +2218,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_buff_spell_B
       takeName: 
+      internalID: 0
       firstFrame: 1509
       lastFrame: 1599
       wrapMode: 1
@@ -1316,6 +2230,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1332,9 +2247,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Drinking_potion
       takeName: 
+      internalID: 0
       firstFrame: 1600
       lastFrame: 1655
       wrapMode: 1
@@ -1342,6 +2259,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1358,9 +2276,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_fire_ball_strong_spell
       takeName: 
+      internalID: 0
       firstFrame: 1656
       lastFrame: 1731
       wrapMode: 1
@@ -1368,6 +2288,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1384,9 +2305,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_speil_fast_loop
       takeName: 
+      internalID: 0
       firstFrame: 1732
       lastFrame: 1762
       wrapMode: 1
@@ -1394,6 +2317,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1410,9 +2334,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_speil_magic_trap
       takeName: 
+      internalID: 0
       firstFrame: 1763
       lastFrame: 1863
       wrapMode: 1
@@ -1420,6 +2346,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1436,9 +2363,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_speil_summoning
       takeName: 
+      internalID: 0
       firstFrame: 1864
       lastFrame: 1899
       wrapMode: 1
@@ -1446,6 +2375,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1462,9 +2392,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_spell_Barier_start
       takeName: 
+      internalID: 0
       firstFrame: 1900
       lastFrame: 1918
       wrapMode: 1
@@ -1472,6 +2404,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1488,9 +2421,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_spell_Barier_keep
       takeName: 
+      internalID: 0
       firstFrame: 1919
       lastFrame: 1954
       wrapMode: 1
@@ -1498,6 +2433,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1514,16 +2450,19 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_spell_Barier_end
       takeName: 
-      firstFrame: 1954.99988
-      lastFrame: 1969.99988
+      internalID: 0
+      firstFrame: 1954.9999
+      lastFrame: 1969.9999
       wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1540,16 +2479,19 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_spell_cast_A
       takeName: 
-      firstFrame: 1970.99988
+      internalID: 0
+      firstFrame: 1970.9999
       lastFrame: 2041
       wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1566,9 +2508,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_spell_curse
       takeName: 
+      internalID: 0
       firstFrame: 2042
       lastFrame: 2102
       wrapMode: 1
@@ -1576,6 +2520,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1592,9 +2537,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_spell_sleep
       takeName: 
+      internalID: 0
       firstFrame: 2103
       lastFrame: 2143
       wrapMode: 1
@@ -1602,6 +2549,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1618,9 +2566,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: M_Dying_A
       takeName: 
+      internalID: 0
       firstFrame: 2144
       lastFrame: 2184
       wrapMode: 1
@@ -1628,6 +2578,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1644,9 +2595,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_PutWeapon_Back
       takeName: 
+      internalID: 0
       firstFrame: 2189
       lastFrame: 2229
       wrapMode: 1
@@ -1654,6 +2607,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1670,9 +2624,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_TookWeaponOut
       takeName: 
+      internalID: 0
       firstFrame: 2230
       lastFrame: 2270
       wrapMode: 1
@@ -1680,6 +2636,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1696,9 +2653,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_5X_Combo
       takeName: 
+      internalID: 0
       firstFrame: 2271
       lastFrame: 2366
       wrapMode: 1
@@ -1706,6 +2665,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1722,9 +2682,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_COMBAT_mode
       takeName: 
+      internalID: 0
       firstFrame: 2367
       lastFrame: 2417
       wrapMode: 1
@@ -1732,6 +2694,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1748,9 +2711,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_Hit_from_back
       takeName: 
+      internalID: 0
       firstFrame: 2418
       lastFrame: 2453
       wrapMode: 1
@@ -1758,6 +2723,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1774,9 +2740,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_Hit_from_front
       takeName: 
+      internalID: 0
       firstFrame: 2454
       lastFrame: 2489
       wrapMode: 1
@@ -1784,6 +2752,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1800,9 +2769,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_moveTOblock
       takeName: 
+      internalID: 0
       firstFrame: 2490
       lastFrame: 2496
       wrapMode: 1
@@ -1810,6 +2781,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1826,9 +2798,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_shield_block_keeping
       takeName: 
+      internalID: 0
       firstFrame: 2497
       lastFrame: 2527
       wrapMode: 1
@@ -1836,6 +2810,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1852,9 +2827,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_moveFROMblock
       takeName: 
+      internalID: 0
       firstFrame: 2528
       lastFrame: 2534
       wrapMode: 1
@@ -1862,6 +2839,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1878,9 +2856,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_shield_block_high_right
       takeName: 
+      internalID: 0
       firstFrame: 2535
       lastFrame: 2570
       wrapMode: 1
@@ -1888,6 +2868,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1904,9 +2885,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_shield_block_high_left
       takeName: 
+      internalID: 0
       firstFrame: 2571
       lastFrame: 2606
       wrapMode: 1
@@ -1914,6 +2897,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1930,9 +2914,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_parry_high_left
       takeName: 
+      internalID: 0
       firstFrame: 2607
       lastFrame: 2642
       wrapMode: 1
@@ -1940,6 +2926,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1956,9 +2943,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_parry_high_right
       takeName: 
+      internalID: 0
       firstFrame: 2643
       lastFrame: 2678
       wrapMode: 1
@@ -1966,6 +2955,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1982,9 +2972,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_shield_blow
       takeName: 
+      internalID: 0
       firstFrame: 2679
       lastFrame: 2714
       wrapMode: 1
@@ -1992,6 +2984,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2008,9 +3001,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_swing_high_left
       takeName: 
+      internalID: 0
       firstFrame: 2715
       lastFrame: 2750
       wrapMode: 1
@@ -2018,6 +3013,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2034,9 +3030,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_swing_high_right
       takeName: 
+      internalID: 0
       firstFrame: 2751
       lastFrame: 2786
       wrapMode: 1
@@ -2044,6 +3042,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2060,9 +3059,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_swing_high_straight_down
       takeName: 
+      internalID: 0
       firstFrame: 2787
       lastFrame: 2822
       wrapMode: 1
@@ -2070,6 +3071,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2086,9 +3088,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_swing_low_left
       takeName: 
+      internalID: 0
       firstFrame: 2823
       lastFrame: 2858
       wrapMode: 1
@@ -2096,6 +3100,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2112,9 +3117,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_swing_low_right
       takeName: 
+      internalID: 0
       firstFrame: 2859
       lastFrame: 2894
       wrapMode: 1
@@ -2122,6 +3129,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2138,9 +3146,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_sword_thrust_high
       takeName: 
+      internalID: 0
       firstFrame: 2895
       lastFrame: 2930
       wrapMode: 1
@@ -2148,6 +3158,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2164,9 +3175,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_Die_fall_backward
       takeName: 
+      internalID: 0
       firstFrame: 2931
       lastFrame: 3064
       wrapMode: 1
@@ -2174,6 +3187,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2190,9 +3204,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_Die_fall_forward
       takeName: 
+      internalID: 0
       firstFrame: 3069
       lastFrame: 3209
       wrapMode: 1
@@ -2200,6 +3216,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2216,9 +3233,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_banging_shield
       takeName: 
+      internalID: 0
       firstFrame: 3214
       lastFrame: 3234
       wrapMode: 1
@@ -2226,6 +3245,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2242,9 +3262,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_Casual_walk
       takeName: 
+      internalID: 0
       firstFrame: 3240
       lastFrame: 3275
       wrapMode: 1
@@ -2252,6 +3274,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2268,9 +3291,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_walk_left_swing
       takeName: 
+      internalID: 0
       firstFrame: 3280
       lastFrame: 3315
       wrapMode: 1
@@ -2278,6 +3303,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2294,9 +3320,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_walk_right_swing
       takeName: 
+      internalID: 0
       firstFrame: 3316
       lastFrame: 3351
       wrapMode: 1
@@ -2304,6 +3332,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2320,9 +3349,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_walk_trust
       takeName: 
+      internalID: 0
       firstFrame: 3352
       lastFrame: 3387
       wrapMode: 1
@@ -2330,6 +3361,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2346,9 +3378,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_Cautious_walk
       takeName: 
+      internalID: 0
       firstFrame: 3388
       lastFrame: 3428
       wrapMode: 1
@@ -2356,6 +3390,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2372,9 +3407,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 1H_combat_run
       takeName: 
+      internalID: 0
       firstFrame: 3433
       lastFrame: 3455
       wrapMode: 1
@@ -2382,6 +3419,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2398,9 +3436,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_putBow_back
       takeName: 
+      internalID: 0
       firstFrame: 3460
       lastFrame: 3495
       wrapMode: 1
@@ -2408,6 +3448,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2424,9 +3465,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_takeBow_out
       takeName: 
+      internalID: 0
       firstFrame: 3496
       lastFrame: 3536
       wrapMode: 1
@@ -2434,6 +3477,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2450,9 +3494,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_COMBAT_mode
       takeName: 
+      internalID: 0
       firstFrame: 3537
       lastFrame: 3587
       wrapMode: 1
@@ -2460,6 +3506,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2476,9 +3523,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_dodge_backwards
       takeName: 
+      internalID: 0
       firstFrame: 3588
       lastFrame: 3623
       wrapMode: 1
@@ -2486,6 +3535,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2502,9 +3552,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_Hit_from_back
       takeName: 
+      internalID: 0
       firstFrame: 3624
       lastFrame: 3659
       wrapMode: 1
@@ -2512,6 +3564,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2528,9 +3581,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_Hit_from_front
       takeName: 
+      internalID: 0
       firstFrame: 3660
       lastFrame: 3695
       wrapMode: 1
@@ -2538,6 +3593,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2554,9 +3610,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_get_arrow_fromBack
       takeName: 
+      internalID: 0
       firstFrame: 3696
       lastFrame: 3736
       wrapMode: 1
@@ -2564,6 +3622,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2580,9 +3639,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_charging
       takeName: 
+      internalID: 0
       firstFrame: 3737
       lastFrame: 3777
       wrapMode: 1
@@ -2590,6 +3651,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2606,9 +3668,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_aim
       takeName: 
+      internalID: 0
       firstFrame: 3778
       lastFrame: 3878
       wrapMode: 1
@@ -2616,6 +3680,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2632,9 +3697,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_shot_loop
       takeName: 
+      internalID: 0
       firstFrame: 3879
       lastFrame: 3949
       wrapMode: 1
@@ -2642,6 +3709,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2658,9 +3726,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_aim_fromLeft_toRight
       takeName: 
+      internalID: 0
       firstFrame: 3954
       lastFrame: 4044
       wrapMode: 1
@@ -2668,6 +3738,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2684,16 +3755,19 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_aim_fromUp_toDown
       takeName: 
-      firstFrame: 4048.99976
+      internalID: 0
+      firstFrame: 4048.9998
       lastFrame: 4139
       wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2710,9 +3784,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_aiming_up_45_d
       takeName: 
+      internalID: 0
       firstFrame: 4140
       lastFrame: 4240
       wrapMode: 1
@@ -2720,6 +3796,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2736,9 +3813,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_shot_loop_45up
       takeName: 
+      internalID: 0
       firstFrame: 4241
       lastFrame: 4311
       wrapMode: 1
@@ -2746,6 +3825,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2762,9 +3842,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_Dying
       takeName: 
+      internalID: 0
       firstFrame: 4316
       lastFrame: 4381
       wrapMode: 1
@@ -2772,6 +3854,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2788,9 +3871,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_run_combat
       takeName: 
+      internalID: 0
       firstFrame: 4387
       lastFrame: 4412
       wrapMode: 1
@@ -2798,6 +3883,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2814,9 +3900,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_walk_Combat
       takeName: 
+      internalID: 0
       firstFrame: 4418
       lastFrame: 4462
       wrapMode: 1
@@ -2824,6 +3912,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2840,9 +3929,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_walk_get_arrow_fromBack
       takeName: 
+      internalID: 0
       firstFrame: 4463
       lastFrame: 4508
       wrapMode: 1
@@ -2850,6 +3941,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2866,9 +3958,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_walk_charging
       takeName: 
+      internalID: 0
       firstFrame: 4509
       lastFrame: 4554
       wrapMode: 1
@@ -2876,6 +3970,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2892,9 +3987,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_walk_Aim
       takeName: 
+      internalID: 0
       firstFrame: 4555
       lastFrame: 4600
       wrapMode: 1
@@ -2902,6 +3999,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2918,9 +4016,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_walk_shot_Loop
       takeName: 
+      internalID: 0
       firstFrame: 4601
       lastFrame: 4656
       wrapMode: 1
@@ -2928,6 +4028,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2944,9 +4045,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_strife_left_Aim
       takeName: 
+      internalID: 0
       firstFrame: 4661
       lastFrame: 4696
       wrapMode: 1
@@ -2954,6 +4057,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2970,9 +4074,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_strife_right_Aim
       takeName: 
+      internalID: 0
       firstFrame: 4701
       lastFrame: 4736
       wrapMode: 1
@@ -2980,6 +4086,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2996,9 +4103,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Archer_walking_back
       takeName: 
+      internalID: 0
       firstFrame: 4741
       lastFrame: 4776
       wrapMode: 1
@@ -3006,6 +4115,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -3022,9 +4132,11 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_1H_Casual_walk
       takeName: Take 001
+      internalID: 0
       firstFrame: 4782
       lastFrame: 4817
       wrapMode: 0
@@ -3032,6 +4144,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -3322,9 +4435,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_1H_Cautious_walk
       takeName: Take 001
+      internalID: 0
       firstFrame: 4822
       lastFrame: 4862
       wrapMode: 0
@@ -3332,6 +4447,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -3622,9 +4738,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_1H_walk_left_swing
       takeName: Take 001
+      internalID: 0
       firstFrame: 4867
       lastFrame: 4902
       wrapMode: 0
@@ -3632,6 +4750,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -3922,9 +5041,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_1H_walk_right_swing
       takeName: Take 001
+      internalID: 0
       firstFrame: 4907
       lastFrame: 4942
       wrapMode: 0
@@ -3932,6 +5053,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -4222,9 +5344,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_1H_walk_trust
       takeName: Take 001
+      internalID: 0
       firstFrame: 4947
       lastFrame: 4982
       wrapMode: 0
@@ -4232,6 +5356,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -4522,9 +5647,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_1H_combat_run
       takeName: Take 001
+      internalID: 0
       firstFrame: 4987
       lastFrame: 5009
       wrapMode: 0
@@ -4532,6 +5659,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -4822,9 +5950,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Run
       takeName: Take 001
+      internalID: 0
       firstFrame: 5014
       lastFrame: 5036
       wrapMode: 0
@@ -4832,6 +5962,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -5122,9 +6253,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Run_Jump
       takeName: Take 001
+      internalID: 0
       firstFrame: 5041
       lastFrame: 5074
       wrapMode: 0
@@ -5132,6 +6265,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -5422,9 +6556,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Sneaking
       takeName: Take 001
+      internalID: 0
       firstFrame: 5079
       lastFrame: 5130
       wrapMode: 0
@@ -5432,6 +6568,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -5722,9 +6859,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_strafe_run_left
       takeName: Take 001
+      internalID: 0
       firstFrame: 5135
       lastFrame: 5161
       wrapMode: 0
@@ -5732,6 +6871,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -6022,9 +7162,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_strafe_run_right
       takeName: Take 001
+      internalID: 0
       firstFrame: 5167
       lastFrame: 5192
       wrapMode: 0
@@ -6032,6 +7174,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -6322,9 +7465,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Strife_leftt
       takeName: Take 001
+      internalID: 0
       firstFrame: 5197
       lastFrame: 5232
       wrapMode: 0
@@ -6332,6 +7477,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -6622,9 +7768,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Strife_right
       takeName: Take 001
+      internalID: 0
       firstFrame: 5238
       lastFrame: 5272
       wrapMode: 0
@@ -6632,6 +7780,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -6922,9 +8071,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_walk
       takeName: Take 001
+      internalID: 0
       firstFrame: 5277
       lastFrame: 5312
       wrapMode: 0
@@ -6932,6 +8083,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7222,9 +8374,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Jump_Walking
       takeName: Take 001
+      internalID: 0
       firstFrame: 5317
       lastFrame: 5347
       wrapMode: 0
@@ -7232,6 +8386,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7522,9 +8677,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Walking_back_B
       takeName: Take 001
+      internalID: 0
       firstFrame: 5353
       lastFrame: 5387
       wrapMode: 0
@@ -7532,6 +8689,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7822,9 +8980,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Walking_With_Tourch
       takeName: Take 001
+      internalID: 0
       firstFrame: 5392
       lastFrame: 5495
       wrapMode: 0
@@ -7832,6 +8992,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -8122,9 +9283,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_run_combat
       takeName: Take 001
+      internalID: 0
       firstFrame: 5501
       lastFrame: 5526
       wrapMode: 0
@@ -8132,6 +9295,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -8422,9 +9586,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_walking_back
       takeName: Take 001
+      internalID: 0
       firstFrame: 5532
       lastFrame: 5566
       wrapMode: 0
@@ -8432,6 +9598,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -8722,9 +9889,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_strife_left_Aim
       takeName: Take 001
+      internalID: 0
       firstFrame: 5572
       lastFrame: 5606
       wrapMode: 0
@@ -8732,6 +9901,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -9022,9 +10192,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_strife_right_Aim
       takeName: Take 001
+      internalID: 0
       firstFrame: 5612
       lastFrame: 5646
       wrapMode: 0
@@ -9032,6 +10204,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -9322,9 +10495,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_walk_
       takeName: Take 001
+      internalID: 0
       firstFrame: 5652
       lastFrame: 5696
       wrapMode: 0
@@ -9332,6 +10507,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -9622,9 +10798,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_walk_get_arrow_fromBack
       takeName: Take 001
+      internalID: 0
       firstFrame: 5701
       lastFrame: 5746
       wrapMode: 0
@@ -9632,6 +10810,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -9922,9 +11101,11 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_walk_charging
       takeName: Take 001
+      internalID: 0
       firstFrame: 5751
       lastFrame: 5796
       wrapMode: 0
@@ -9932,6 +11113,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10222,9 +11404,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_walk_Aim
       takeName: Take 001
+      internalID: 0
       firstFrame: 5801
       lastFrame: 5846
       wrapMode: 0
@@ -10232,6 +11416,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10522,9 +11707,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Archer_walk_shot_Loop
       takeName: Take 001
+      internalID: 0
       firstFrame: 5851
       lastFrame: 5906
       wrapMode: 0
@@ -10532,6 +11719,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -10822,19 +12010,30 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -10842,12 +12041,17 @@ ModelImporter:
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human:
     - boneName: Bip01 Pelvis
       humanName: Hips
@@ -11283,530 +12487,541 @@ ModelImporter:
         modified: 0
     skeleton:
     - name: Adam_Full_Animated(Clone)
+      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Belt
-      position: {x: 0, y: 1.42269742, z: -.000430498127}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.4226974, z: -0.00043049813}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Boots
-      position: {x: 0, y: 1.42269742, z: -.000430498127}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.4226974, z: -0.00043049813}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Bread
-      position: {x: .0013740015, y: 1.82047486, z: -.0394919962}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0.0013740015, y: 1.8204749, z: -0.039491996}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Gloves
-      position: {x: 0, y: 1.42269742, z: -.000430498127}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.4226974, z: -0.00043049813}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Hood
-      position: {x: .00401449669, y: 1.81642604, z: -.039577499}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0.0040144967, y: 1.816426, z: -0.0395775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Jerkin
-      position: {x: 0, y: 1.49599147, z: -.0453209393}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.4959915, z: -0.04532094}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_paints
-      position: {x: 0, y: 1.42269742, z: -.000430498127}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.4226974, z: -0.00043049813}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Adv_Shirt
-      position: {x: 0, y: 1.35082948, z: -.0377517864}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.3508295, z: -0.037751786}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_body_All
-      position: {x: 0, y: .844979048, z: .0281060599}
-      rotation: {x: -.707106829, y: -7.20283033e-09, z: -5.2271969e-09, w: .707106829}
-      scale: {x: 1.00000012, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: 0, y: 0.84497905, z: 0.02810606}
+      rotation: {x: -0.7071068, y: -0.0000000072028303, z: -0.000000005227197, w: 0.7071068}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
     - name: Adam_Bow_Adv_Hand
-      position: {x: -.339113295, y: -.043651741, z: -.658506274}
-      rotation: {x: -.5, y: -.5, z: .5, w: .5}
+      parentName: 
+      position: {x: -0.3391133, y: -0.04365174, z: -0.6585063}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adv_Adam_Hair
-      position: {x: .0013740015, y: 1.82405543, z: -.0394919962}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0.0013740015, y: 1.8240554, z: -0.039491996}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01
+      parentName: 
       position: {x: 0, y: 1.0286715, z: 0}
-      rotation: {x: -.500000358, y: .499999672, z: .499999672, w: .500000358}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 Pelvis
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -.499999642, y: .500000358, z: .499999642, w: .500000358}
+      rotation: {x: -0.49999964, y: 0.50000036, z: 0.49999964, w: 0.50000036}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 left_Wmount
-      position: {x: -.0856154636, y: .0719519705, z: .268351197}
-      rotation: {x: -.0937079489, y: -.0201198477, z: .973565876, w: .207324788}
-      scale: {x: 1, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.08561546, y: 0.07195197, z: 0.2683512}
+      rotation: {x: -0.09370795, y: -0.020119848, z: 0.9735659, w: 0.20732479}
+      scale: {x: 1, y: 1, z: 0.99999994}
     - name: Bip01 right_Wmount
-      position: {x: -.0854630247, y: .0719514042, z: -.267562538}
-      rotation: {x: .0937084258, y: .0201187897, z: .973565757, w: .207325131}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.085463025, y: 0.071951404, z: -0.26756254}
+      rotation: {x: 0.093708426, y: 0.02011879, z: 0.97356576, w: 0.20732513}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: Bip01 L Thigh
-      position: {x: 1.52587887e-07, y: 2.23567767e-07, z: .12878792}
-      rotation: {x: -.0226049218, y: .999734402, z: .000204174881, w: .00448674196}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.00000015258789, y: 0.00000022356777, z: 0.12878792}
+      rotation: {x: -0.022604922, y: 0.9997344, z: 0.00020417488, w: 0.004486742}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 L Calf
-      position: {x: -.466463119, y: 4.76837148e-09, z: 0}
-      rotation: {x: -1.1573336e-10, y: -1.25822313e-11, z: .108080558, w: .994142175}
-      scale: {x: 1.00000024, y: 1.00000024, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.46646312, y: 0.0000000047683715, z: 0}
+      rotation: {x: -1.1573336e-10, y: -1.2582231e-11, z: 0.10808056, w: 0.9941422}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
     - name: Bip01 L Foot
-      position: {x: -.488108724, y: 0, z: 9.53674295e-09}
-      rotation: {x: .000688658736, y: .00443902379, z: -.0855793208, w: .996321261}
-      scale: {x: 1, y: .999999881, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.48810872, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.00068865874, y: 0.004439024, z: -0.08557932, w: 0.99632126}
+      scale: {x: 1, y: 0.9999999, z: 1}
     - name: Bip01 L Toe0
-      position: {x: -.0803534016, y: .161940157, z: 0}
-      rotation: {x: -4.21111205e-14, y: 4.21111205e-14, z: -.707106829, w: .707106829}
+      parentName: 
+      position: {x: -0.0803534, y: 0.16194016, z: 0}
+      rotation: {x: -4.211112e-14, y: 4.211112e-14, z: -0.7071068, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 R Thigh
-      position: {x: -1.52587887e-07, y: -1.33638451e-07, z: -.12878792}
-      rotation: {x: -.0226049144, y: .999734402, z: -.000205527947, w: -.00448824652}
+      parentName: 
+      position: {x: -0.00000015258789, y: -0.00000013363845, z: -0.12878792}
+      rotation: {x: -0.022604914, y: 0.9997344, z: -0.00020552795, w: -0.0044882465}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 R Calf
-      position: {x: -.466463119, y: 9.53674295e-09, z: -9.53674295e-09}
-      rotation: {x: 2.23928973e-10, y: -4.44060094e-10, z: .108080558, w: .994142175}
-      scale: {x: 1.00000024, y: 1.00000024, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.46646312, y: 0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 2.2392897e-10, y: -4.440601e-10, z: 0.10808056, w: 0.9941422}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
     - name: Bip01 R Foot
-      position: {x: -.488108724, y: -4.76837148e-09, z: 9.53674295e-09}
-      rotation: {x: -.000688666129, y: -.00443910994, z: -.0855793431, w: .996321261}
-      scale: {x: .99999994, y: .999999881, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.48810872, y: -0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: -0.0006886661, y: -0.00443911, z: -0.08557934, w: 0.99632126}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
     - name: Bip01 R Toe0
-      position: {x: -.0803533942, y: .161940113, z: 0}
-      rotation: {x: -4.01368764e-14, y: -4.02518696e-14, z: -.707106829, w: .707106829}
-      scale: {x: .99999994, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.080353394, y: 0.16194011, z: 0}
+      rotation: {x: -4.0136876e-14, y: -4.025187e-14, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: Bip01 Spine
-      position: {x: -.110830531, y: -.00584906526, z: 1.71960707e-07}
-      rotation: {x: -2.07906805e-06, y: 6.92269396e-07, z: .00162927911, w: .999998689}
+      parentName: 
+      position: {x: -0.11083053, y: -0.0058490653, z: 0.0000001719607}
+      rotation: {x: -0.000002079068, y: 0.0000006922694, z: 0.0016292791, w: 0.9999987}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 Spine1
-      position: {x: -.187423632, y: -.000234065345, z: -6.4920358e-10}
-      rotation: {x: -7.09308914e-14, y: -1.47955725e-09, z: .000533443061, w: .999999881}
-      scale: {x: .99999994, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.18742363, y: -0.00023406534, z: -6.492036e-10}
+      rotation: {x: -7.093089e-14, y: -0.0000000014795573, z: 0.00053344306, w: 0.9999999}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: Bip01 back_left_Wmount
-      position: {x: -.448181301, y: -.14416258, z: .244921073}
-      rotation: {x: .200565025, y: .675228357, z: .700107932, w: -.117001094}
-      scale: {x: 1.00000012, y: 1.00000024, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.4481813, y: -0.14416258, z: 0.24492107}
+      rotation: {x: 0.20056503, y: 0.67522836, z: 0.70010793, w: -0.117001094}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
     - name: Adam_Bow_Adv_Back
-      position: {x: -.0912750214, y: -.000957717886, z: -.038255576}
-      rotation: {x: .00772603089, y: .00688488036, z: .00849533454, w: .999910355}
-      scale: {x: 1.00000024, y: .999999881, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.09127502, y: -0.0009577179, z: -0.038255576}
+      rotation: {x: 0.007726031, y: 0.0068848804, z: 0.008495335, w: 0.99991035}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000004}
     - name: Adam_Scabbard_adv_Left
-      position: {x: -.563193321, y: -.00612285594, z: -.0073019024}
-      rotation: {x: .999910355, y: .00849536341, z: -.00688504148, w: -.00772632984}
-      scale: {x: .99999994, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.5631933, y: -0.006122856, z: -0.0073019024}
+      rotation: {x: 0.99991035, y: 0.008495363, z: -0.0068850415, w: -0.00772633}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
     - name: Adam_Sword_Adv_Back_Left
-      position: {x: .591322541, y: .00129981991, z: -6.48880014e-05}
-      rotation: {x: -7.45058015e-09, y: -1.86264497e-08, z: 1.49011594e-08, w: 1}
-      scale: {x: 1.00000012, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.59132254, y: 0.0012998199, z: -0.000064888}
+      rotation: {x: -0.00000000745058, y: -0.00000001862645, z: 0.000000014901159,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
     - name: Bip01 back_right_Wmount
-      position: {x: -.452073663, y: -.143755943, z: -.238206789}
-      rotation: {x: -.110002808, y: .700921416, z: .683913708, w: .169913545}
-      scale: {x: 1.00000012, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.45207366, y: -0.14375594, z: -0.23820679}
+      rotation: {x: -0.11000281, y: 0.7009214, z: 0.6839137, w: 0.16991355}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
     - name: Adam_Quiver_Adv
-      position: {x: -.107520141, y: .0182038881, z: -.0703053847}
-      rotation: {x: .997335255, y: -.0708477497, z: .0174085945, w: 8.62610307e-07}
-      scale: {x: 1, y: 1.00000012, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10752014, y: 0.018203888, z: -0.070305385}
+      rotation: {x: 0.99733526, y: -0.07084775, z: 0.017408594, w: 0.0000008626103}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
     - name: Adam_Arrow_Adv01
-      position: {x: .346672058, y: .0506580323, z: -.00161834713}
-      rotation: {x: .979924679, y: -2.99467366e-08, z: -2.29112351e-09, w: .19936794}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.34667206, y: 0.050658032, z: -0.0016183471}
+      rotation: {x: 0.9799247, y: -0.000000029946737, z: -0.0000000022911235, w: 0.19936794}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: Adam_Arrow_Adv02
-      position: {x: .3609761, y: .0214216616, z: -.00161834713}
-      rotation: {x: -3.7252903e-09, y: -3.72529008e-09, z: -2.98023224e-08, w: 1}
+      parentName: 
+      position: {x: 0.3609761, y: 0.021421662, z: -0.0016183471}
+      rotation: {x: -0.0000000037252903, y: -0.00000000372529, z: -0.000000029802322,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Arrow_Adv03
-      position: {x: .379302651, y: -.00449752808, z: -.00161838531}
-      rotation: {x: .147809401, y: -8.0894349e-09, z: -2.89243367e-08, w: .989015877}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.37930265, y: -0.004497528, z: -0.0016183853}
+      rotation: {x: 0.1478094, y: -0.000000008089435, z: -0.000000028924337, w: 0.9890159}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: Adam_Arrow_Adv04
-      position: {x: .407369971, y: -.0585258454, z: -.00161838531}
-      rotation: {x: -.300705731, y: 5.40885647e-09, z: -2.95431963e-08, w: .953716993}
+      parentName: 
+      position: {x: 0.40736997, y: -0.058525845, z: -0.0016183853}
+      rotation: {x: -0.30070573, y: 0.0000000054088565, z: -0.000000029543196, w: 0.953717}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Arrow_Adv05
-      position: {x: .389411002, y: -.0338232405, z: -.00161830895}
-      rotation: {x: .963630497, y: -2.77228853e-08, z: 1.15541257e-08, w: -.267238319}
+      parentName: 
+      position: {x: 0.389411, y: -0.03382324, z: -0.001618309}
+      rotation: {x: 0.9636305, y: -0.000000027722885, z: 0.000000011554126, w: -0.26723832}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Adam_Scabbard_adv_Right
-      position: {x: -.557173371, y: .0132284546, z: -.00688859913}
-      rotation: {x: .999789953, y: -.0185454451, z: .00872518215, w: -.000161770527}
-      scale: {x: 1, y: .99999994, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.5571734, y: 0.013228455, z: -0.006888599}
+      rotation: {x: 0.99978995, y: -0.018545445, z: 0.008725182, w: -0.00016177053}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
     - name: Adamm_Sword_Adv_Back_Right
-      position: {x: .591322482, y: .00129970547, z: -6.48880014e-05}
-      rotation: {x: -1.86264504e-09, y: -3.7252903e-09, z: 1.49011612e-08, w: 1}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.5913225, y: 0.0012997055, z: -0.000064888}
+      rotation: {x: -0.000000001862645, y: -0.0000000037252903, z: 0.000000014901161,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: Bip01 back_shield_mount
-      position: {x: -.152271271, y: -.31373176, z: 9.8060802e-05}
-      rotation: {x: .748162508, y: .663515627, z: 3.1606869e-05, w: 6.09885501e-05}
-      scale: {x: 1.00000012, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.15227127, y: -0.31373176, z: 0.0000980608}
+      rotation: {x: 0.7481625, y: 0.6635156, z: 0.00003160687, w: 0.00006098855}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
     - name: Adam_Shield_Adv_Back
-      position: {x: -.0221266933, y: -.0149626154, z: 9.70458932e-05}
-      rotation: {x: .707131684, y: -.00559356017, z: -.00561899878, w: .707037389}
-      scale: {x: 1, y: 1.00000024, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.022126693, y: -0.014962615, z: 0.00009704589}
+      rotation: {x: 0.7071317, y: -0.00559356, z: -0.005618999, w: 0.7070374}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
     - name: Bip01 Neck
-      position: {x: -.335254371, y: .00806275103, z: 6.74633256e-08}
-      rotation: {x: 1.57100104e-07, y: 8.43513192e-07, z: -.132980451, w: .99111867}
+      parentName: 
+      position: {x: -0.33525437, y: 0.008062751, z: 0.000000067463326}
+      rotation: {x: 0.0000001571001, y: 0.0000008435132, z: -0.13298045, w: 0.99111867}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 Head
-      position: {x: -.0875619501, y: 0, z: 0}
-      rotation: {x: -1.2504492e-07, y: -6.68513053e-07, z: .0664852411, w: .997787416}
+      parentName: 
+      position: {x: -0.08756195, y: 0, z: 0}
+      rotation: {x: -0.00000012504492, y: -0.00000066851305, z: 0.06648524, w: 0.9977874}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 zJaw
-      position: {x: -.0224868767, y: .029102955, z: 8.66862635e-08}
-      rotation: {x: 1.83758658e-07, y: 3.56423698e-06, z: -.830052376, w: .557685435}
+      parentName: 
+      position: {x: -0.022486877, y: 0.029102955, z: 0.00000008668626}
+      rotation: {x: 0.00000018375866, y: 0.000003564237, z: -0.8300524, w: 0.55768543}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 zeye_left
-      position: {x: -.0999034122, y: .113351494, z: .0346340463}
-      rotation: {x: .0525944531, y: -.0065610148, z: -.545660913, w: .836328328}
-      scale: {x: 1, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.09990341, y: 0.113351494, z: 0.034634046}
+      rotation: {x: 0.052594453, y: -0.006561015, z: -0.5456609, w: 0.8363283}
+      scale: {x: 1, y: 1, z: 0.99999994}
     - name: Bip01 zeye_right
-      position: {x: -.0999034122, y: .113351688, z: -.0346334167}
-      rotation: {x: -.0525944568, y: .006564043, z: -.545660853, w: .836328328}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.09990341, y: 0.11335169, z: -0.034633417}
+      rotation: {x: -0.052594457, y: 0.006564043, z: -0.54566085, w: 0.8363283}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: Bip01 zz_eye_left_lookAt
-      position: {x: -.0974449143, y: .100733653, z: .0330595262}
-      rotation: {x: .0587196164, y: .00739179552, z: -.656257331, w: .752212524}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.097444914, y: 0.10073365, z: 0.033059526}
+      rotation: {x: 0.058719616, y: 0.0073917955, z: -0.65625733, w: 0.7522125}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 zz_eye_right_lookA
-      position: {x: -.0974449143, y: .100733846, z: -.0330589712}
-      rotation: {x: -.0587196164, y: -.0073881587, z: -.656257391, w: .752212524}
-      scale: {x: .99999994, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.097444914, y: 0.10073385, z: -0.03305897}
+      rotation: {x: -0.058719616, y: -0.0073881587, z: -0.6562574, w: 0.7522125}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: Bip01 L Clavicle
-      position: {x: -.252136081, y: -.000616467558, z: .0410743877}
-      rotation: {x: .708662033, y: .00325602433, z: -.705535412, w: -.00270613609}
+      parentName: 
+      position: {x: -0.25213608, y: -0.00061646756, z: 0.041074388}
+      rotation: {x: 0.70866203, y: 0.0032560243, z: -0.7055354, w: -0.002706136}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 L UpperArm
-      position: {x: -.168931887, y: 5.96046434e-10, z: -1.52587887e-07}
-      rotation: {x: -.0194454789, y: .00493179634, z: -.00378862629, w: .999791563}
-      scale: {x: 1, y: 1.00000024, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.16893189, y: 5.9604643e-10, z: -0.00000015258789}
+      rotation: {x: -0.019445479, y: 0.0049317963, z: -0.0037886263, w: 0.99979156}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
     - name: Bip01 L Forearm
-      position: {x: -.263582647, y: 0, z: 0}
-      rotation: {x: -1.86400917e-09, y: 1.86128057e-09, z: .00073242205, w: .999999762}
-      scale: {x: .99999994, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.26358265, y: 0, z: 0}
+      rotation: {x: -0.0000000018640092, y: 0.0000000018612806, z: 0.00073242205,
+        w: 0.99999976}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: Bip01 L ForeTwist
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: .0170720201, y: 4.57146793e-10, z: -5.02642816e-10, w: .999854267}
-      scale: {x: 1, y: .99999994, z: .99999994}
-      transformModified: 1
+      rotation: {x: 0.01707202, y: 4.571468e-10, z: -5.026428e-10, w: 0.99985427}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: Bip01 L Hand
-      position: {x: -.259304374, y: -4.76837148e-09, z: 0}
-      rotation: {x: -.669947743, y: -.0066323108, z: .000733234512, w: .742378235}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.25930437, y: -0.0000000047683715, z: 0}
+      rotation: {x: -0.66994774, y: -0.006632311, z: 0.0007332345, w: 0.74237823}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 Rhand_WeaponOpp
-      position: {x: -.105691522, y: .0242983997, z: -.0219380949}
-      rotation: {x: .703530014, y: .000639102363, z: .710665047, w: .000660224759}
-      scale: {x: .999999881, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10569152, y: 0.0242984, z: -0.021938095}
+      rotation: {x: 0.70353, y: 0.00063910236, z: 0.71066505, w: 0.00066022476}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: Adam_Sword_Adv_Hand_Left
-      position: {x: .0130259609, y: 1.52587887e-07, z: -3.05175774e-07}
-      rotation: {x: -3.88827118e-07, y: 6.99366254e-08, z: -2.58907704e-07, w: 1}
-      scale: {x: .999999762, y: 1.00000012, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.013025961, y: 0.00000015258789, z: -0.00000030517577}
+      rotation: {x: -0.00000038882712, y: 0.000000069936625, z: -0.0000002589077,
+        w: 1}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.99999976}
     - name: Adam_Bow_Adv_Hand_Main_Bone01
-      position: {x: .026674794, y: .0165141299, z: -.00246757502}
-      rotation: {x: .582745075, y: .400509596, z: .582745314, w: .400509834}
-      scale: {x: 1.00000095, y: 1.00000012, z: .999999583}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.026674794, y: 0.01651413, z: -0.002467575}
+      rotation: {x: 0.5827451, y: 0.4005096, z: 0.5827453, w: 0.40050983}
+      scale: {x: 1.000001, y: 1.0000001, z: 0.9999996}
     - name: Adam_Bow_Adv_Hand_animation_controller01
-      position: {x: .126238093, y: -.0121856686, z: -.0483190529}
-      rotation: {x: -2.25516272e-09, y: .0261769444, z: 1.49653303e-08, w: .999657333}
-      scale: {x: .999999464, y: 1.00000095, z: .999999404}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.1262381, y: -0.012185669, z: -0.048319053}
+      rotation: {x: -0.0000000022551627, y: 0.026176944, z: 0.00000001496533, w: 0.99965733}
+      scale: {x: 0.99999946, y: 1.000001, z: 0.9999994}
     - name: Bip01 shield_mount
-      position: {x: -.0955121592, y: .0185578912, z: -.0212518685}
-      rotation: {x: .620170236, y: .402301848, z: .283421129, w: .610913038}
-      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.09551216, y: 0.018557891, z: -0.021251868}
+      rotation: {x: 0.62017024, y: 0.40230185, z: 0.28342113, w: 0.61091304}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
     - name: Adam_Shield_Adv_Hand
-      position: {x: -.0158833303, y: .00659453357, z: -.0170347597}
-      rotation: {x: .00743549131, y: -.0129601927, z: -.0315393507, w: .999390841}
-      scale: {x: .999999762, y: .999999285, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.01588333, y: 0.0065945336, z: -0.01703476}
+      rotation: {x: 0.0074354913, y: -0.012960193, z: -0.03153935, w: 0.99939084}
+      scale: {x: 0.99999976, y: 0.9999993, z: 1.0000001}
     - name: Bip01 L Finger0
-      position: {x: -.0334086604, y: .0133459466, z: -.0399003401}
-      rotation: {x: .638754904, y: -.252179831, z: .311246991, w: .656904101}
-      scale: {x: 1.00000012, y: .99999994, z: .999999702}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03340866, y: 0.013345947, z: -0.03990034}
+      rotation: {x: 0.6387549, y: -0.25217983, z: 0.311247, w: 0.6569041}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999997}
     - name: Bip01 L Finger01
-      position: {x: -.0494984798, y: -7.62939436e-08, z: 0}
-      rotation: {x: -2.03730597e-08, y: 4.31501235e-09, z: -.0288579706, w: .999583542}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04949848, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.00000002037306, y: 0.0000000043150123, z: -0.02885797, w: 0.99958354}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: Bip01 L Finger02
-      position: {x: -.0306598656, y: -3.81469718e-08, z: 1.52587887e-07}
-      rotation: {x: 1.19432411e-08, y: -2.57346215e-08, z: .0296149645, w: .999561429}
-      scale: {x: 1, y: .99999994, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.030659866, y: -0.000000038146972, z: 0.00000015258789}
+      rotation: {x: 0.000000011943241, y: -0.000000025734622, z: 0.029614965, w: 0.9995614}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: Bip01 L Finger3
-      position: {x: -.109349363, y: -.00356811518, z: .0175010301}
-      rotation: {x: -.000814814819, y: -.00957002956, z: -.0436135866, w: .999002337}
-      scale: {x: 1.00000012, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10934936, y: -0.0035681152, z: 0.01750103}
+      rotation: {x: -0.0008148148, y: -0.00957003, z: -0.043613587, w: 0.99900234}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
     - name: Bip01 L Finger31
-      position: {x: -.0416323096, y: 0, z: 0}
-      rotation: {x: 5.85475418e-11, y: -2.79335421e-09, z: .0209549814, w: .999780416}
-      scale: {x: 1, y: 1.00000012, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04163231, y: 0, z: 0}
+      rotation: {x: 5.854754e-11, y: -0.0000000027933542, z: 0.020954981, w: 0.9997804}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
     - name: Bip01 L Finger32
-      position: {x: -.029877089, y: 1.52587887e-07, z: -1.90734859e-08}
-      rotation: {x: 2.81465073e-10, y: -5.11453635e-09, z: .0549492314, w: .998489201}
-      scale: {x: .999999881, y: .999999881, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.029877089, y: 0.00000015258789, z: -0.000000019073486}
+      rotation: {x: 2.8146507e-10, y: -0.0000000051145363, z: 0.05494923, w: 0.9984892}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
     - name: Bip01 L Finger4
-      position: {x: -.107487865, y: .0010888672, z: .042200584}
-      rotation: {x: -.000398125412, y: -.00687499531, z: 2.73773412e-06, w: .999976277}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.107487865, y: 0.0010888672, z: 0.042200584}
+      rotation: {x: -0.0003981254, y: -0.0068749953, z: 0.0000027377341, w: 0.9999763}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: Bip01 L Finger41
-      position: {x: -.0359356664, y: 0, z: 0}
-      rotation: {x: 2.5424543e-10, y: 1.19880825e-08, z: -.0212034136, w: .999775171}
+      parentName: 
+      position: {x: -0.035935666, y: 0, z: 0}
+      rotation: {x: 2.5424543e-10, y: 0.0000000119880825, z: -0.021203414, w: 0.9997752}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 L Finger42
-      position: {x: -.0276267231, y: 0, z: 0}
-      rotation: {x: 6.03583156e-11, y: -4.59800953e-09, z: .0131259225, w: .999913871}
-      scale: {x: .99999994, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.027626723, y: 0, z: 0}
+      rotation: {x: 6.0358316e-11, y: -0.0000000045980095, z: 0.0131259225, w: 0.9999139}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
     - name: Bip01 L Finger2
-      position: {x: -.108467102, y: -.00190490717, z: -.0088755032}
-      rotation: {x: -.00136088929, y: -.0185692459, z: .0178504344, w: .999667287}
-      scale: {x: 1.00000024, y: 1, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.1084671, y: -0.0019049072, z: -0.008875503}
+      rotation: {x: -0.0013608893, y: -0.018569246, z: 0.017850434, w: 0.9996673}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
     - name: Bip01 L Finger21
-      position: {x: -.0524123386, y: 1.52587887e-07, z: -1.90734859e-08}
-      rotation: {x: 2.48527015e-11, y: 6.98049618e-10, z: -.0355805159, w: .99936682}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.05241234, y: 0.00000015258789, z: -0.000000019073486}
+      rotation: {x: 2.4852701e-11, y: 6.980496e-10, z: -0.035580516, w: 0.9993668}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Bip01 L Finger22
-      position: {x: -.0326879881, y: 0, z: 0}
-      rotation: {x: 4.2599254e-11, y: -4.63708655e-10, z: .0914812014, w: .995806813}
+      parentName: 
+      position: {x: -0.032687988, y: 0, z: 0}
+      rotation: {x: 4.2599254e-11, y: -4.6370865e-10, z: 0.0914812, w: 0.9958068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 L Finger1
-      position: {x: -.108509675, y: -.000876617385, z: -.0385044962}
-      rotation: {x: .00249210489, y: -.0133603923, z: -.018446004, w: .999737501}
-      scale: {x: 1.00000012, y: 1, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.108509675, y: -0.0008766174, z: -0.038504496}
+      rotation: {x: 0.002492105, y: -0.013360392, z: -0.018446004, w: 0.9997375}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
     - name: Bip01 L Finger11
-      position: {x: -.0447443388, y: 0, z: 9.53674295e-09}
-      rotation: {x: 3.76150799e-09, y: -1.1699145e-09, z: .0295533407, w: .999563217}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04474434, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.000000003761508, y: -0.0000000011699145, z: 0.02955334, w: 0.9995632}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 L Finger12
-      position: {x: -.0310989376, y: 3.05175774e-07, z: -9.53674295e-09}
-      rotation: {x: -3.8566732e-09, y: -3.46811735e-09, z: -.0371167772, w: .99931097}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.031098938, y: 0.00000030517577, z: -0.000000009536743}
+      rotation: {x: -0.000000003856673, y: -0.0000000034681173, z: -0.037116777, w: 0.999311}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
     - name: Bip01 L ForeTwist1
-      position: {x: -.129652217, y: 0, z: 0}
-      rotation: {x: .0341390669, y: 4.48499071e-10, z: -5.10374021e-10, w: .999417126}
+      parentName: 
+      position: {x: -0.12965222, y: 0, z: 0}
+      rotation: {x: 0.034139067, y: 4.4849907e-10, z: -5.10374e-10, w: 0.9994171}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 LUpArmTwist
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -1.62630326e-19, y: 4.65661287e-10, z: 3.49245965e-10, w: 1}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      rotation: {x: -1.6263033e-19, y: 4.656613e-10, z: 3.4924597e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: Bip01 LUpArmTwist1
-      position: {x: -.131791338, y: 0, z: 0}
-      rotation: {x: -1.62630326e-19, y: 4.65661287e-10, z: 3.49245965e-10, w: 1}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.13179134, y: 0, z: 0}
+      rotation: {x: -1.6263033e-19, y: 4.656613e-10, z: 3.4924597e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: Bip01 R Clavicle
-      position: {x: -.252136081, y: -.000616239908, z: -.0410743877}
-      rotation: {x: .708662033, y: .00325407577, z: .705535412, w: .00270416238}
+      parentName: 
+      position: {x: -0.25213608, y: -0.0006162399, z: -0.041074388}
+      rotation: {x: 0.70866203, y: 0.0032540758, z: 0.7055354, w: 0.0027041624}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 R UpperArm
-      position: {x: -.168931857, y: 1.19209287e-09, z: 0}
-      rotation: {x: .0194454808, y: -.00493173767, z: -.00378862722, w: .999791563}
-      scale: {x: 1, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.16893186, y: 0.0000000011920929, z: 0}
+      rotation: {x: 0.01944548, y: -0.0049317377, z: -0.0037886272, w: 0.99979156}
+      scale: {x: 1, y: 1.0000001, z: 1}
     - name: Bip01 R Forearm
-      position: {x: -.263582617, y: 0, z: 0}
-      rotation: {x: -3.72563003e-09, y: 4.6293272e-10, z: .000732421759, w: .999999762}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.26358262, y: 0, z: 0}
+      rotation: {x: -0.00000000372563, y: 4.6293272e-10, z: 0.00073242176, w: 0.99999976}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 R ForeTwist
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -.0170720145, y: -4.60127964e-10, z: -3.28045258e-10, w: .999854267}
+      rotation: {x: -0.017072015, y: -4.6012796e-10, z: -3.2804526e-10, w: 0.99985427}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 R Hand
-      position: {x: -.259304345, y: 4.76837148e-09, z: -1.52587887e-07}
-      rotation: {x: .669947743, y: .00663231174, z: .000733235152, w: .742378235}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.25930434, y: 0.0000000047683715, z: -0.00000015258789}
+      rotation: {x: 0.66994774, y: 0.0066323117, z: 0.00073323515, w: 0.74237823}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: Bip01 Rhand_Weapon
-      position: {x: -.104763336, y: .023406066, z: .0219494533}
-      rotation: {x: -.507248521, y: .480643064, z: .512272537, w: .499257475}
-      scale: {x: 1, y: .999999881, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10476334, y: 0.023406066, z: 0.021949453}
+      rotation: {x: -0.5072485, y: 0.48064306, z: 0.51227254, w: 0.49925748}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
     - name: Adam_Sword_Adv_Hand_Right
-      position: {x: .026655674, y: -2.28881831e-07, z: 3.05175774e-07}
-      rotation: {x: 5.94183632e-07, y: 1.2479704e-07, z: -3.39816467e-07, w: 1}
-      scale: {x: .999999821, y: 1.00000036, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.026655674, y: -0.00000022888183, z: 0.00000030517577}
+      rotation: {x: 0.00000059418363, y: 0.00000012479704, z: -0.00000033981647, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.99999976}
     - name: AdamArrow_Adv_Hand
-      position: {x: .018619461, y: .0260206591, z: -.00102478021}
-      rotation: {x: 1.67637939e-08, y: -1.2107202e-07, z: 1.28057143e-09, w: 1}
-      scale: {x: .999999344, y: 1.00000072, z: .999999702}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.018619461, y: 0.02602066, z: -0.0010247802}
+      rotation: {x: 0.000000016763794, y: -0.00000012107202, z: 0.0000000012805714,
+        w: 1}
+      scale: {x: 0.99999934, y: 1.0000007, z: 0.9999997}
     - name: Bip01 R Finger0
-      position: {x: -.0334087349, y: .0133459466, z: .039900355}
-      rotation: {x: -.638754845, y: .252179861, z: .311246991, w: .656904101}
-      scale: {x: 1.00000012, y: .99999994, z: .999999642}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.033408735, y: 0.013345947, z: 0.039900355}
+      rotation: {x: -0.63875484, y: 0.25217986, z: 0.311247, w: 0.6569041}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999964}
     - name: Bip01 R Finger01
-      position: {x: -.0494984798, y: -1.52587887e-07, z: 0}
-      rotation: {x: -7.76998998e-09, y: -1.09562075e-08, z: -.0288579501, w: .999583542}
-      scale: {x: 1, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04949848, y: -0.00000015258789, z: 0}
+      rotation: {x: -0.00000000776999, y: -0.0000000109562075, z: -0.02885795, w: 0.99958354}
+      scale: {x: 1, y: 1.0000001, z: 1}
     - name: Bip01 R Finger02
-      position: {x: -.0306598656, y: -7.62939436e-08, z: -3.05175774e-07}
-      rotation: {x: 1.59841846e-08, y: 2.65620557e-08, z: .0296149701, w: .999561429}
+      parentName: 
+      position: {x: -0.030659866, y: -0.000000076293944, z: -0.00000030517577}
+      rotation: {x: 0.000000015984185, y: 0.000000026562056, z: 0.02961497, w: 0.9995614}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 R Finger3
-      position: {x: -.109349288, y: -.00356811518, z: -.0175010394}
-      rotation: {x: .000814814877, y: .0095700305, z: -.0436135828, w: .999002337}
-      scale: {x: 1.00000012, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10934929, y: -0.0035681152, z: -0.01750104}
+      rotation: {x: 0.0008148149, y: 0.0095700305, z: -0.043613583, w: 0.99900234}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
     - name: Bip01 R Finger31
-      position: {x: -.0416321568, y: 0, z: 9.53674295e-09}
-      rotation: {x: 2.43948091e-12, y: -1.16389766e-10, z: .0209549814, w: .999780416}
-      scale: {x: .99999994, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.041632157, y: 0, z: 0.000000009536743}
+      rotation: {x: 2.439481e-12, y: -1.16389766e-10, z: 0.020954981, w: 0.9997804}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: Bip01 R Finger32
-      position: {x: -.0298772417, y: 1.52587887e-07, z: 9.53674295e-09}
-      rotation: {x: 1.85983107e-09, y: 1.02350919e-10, z: .0549492314, w: .998489201}
-      scale: {x: 1, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.029877242, y: 0.00000015258789, z: 0.000000009536743}
+      rotation: {x: 0.0000000018598311, y: 1.0235092e-10, z: 0.05494923, w: 0.9984892}
+      scale: {x: 1, y: 1, z: 0.99999994}
     - name: Bip01 R Finger4
-      position: {x: -.107487947, y: .0010890197, z: -.0422005728}
-      rotation: {x: .000398125412, y: .00687499298, z: 2.73750265e-06, w: .999976277}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10748795, y: 0.0010890197, z: -0.042200573}
+      rotation: {x: 0.0003981254, y: 0.006874993, z: 0.0000027375027, w: 0.9999763}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 R Finger41
-      position: {x: -.0359355174, y: 0, z: -9.53674295e-09}
-      rotation: {x: 7.89888641e-11, y: 3.72445252e-09, z: -.0212034136, w: .999775171}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.035935517, y: 0, z: -0.000000009536743}
+      rotation: {x: 7.8988864e-11, y: 0.0000000037244525, z: -0.021203414, w: 0.9997752}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
     - name: Bip01 R Finger42
-      position: {x: -.0276267994, y: -1.52587887e-07, z: -9.53674295e-09}
-      rotation: {x: -1.71197068e-09, y: -1.14903704e-08, z: .0131259207, w: .999913871}
-      scale: {x: 1, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0276268, y: -0.00000015258789, z: -0.000000009536743}
+      rotation: {x: -0.0000000017119707, y: -0.00000001149037, z: 0.013125921, w: 0.9999139}
+      scale: {x: 1, y: 1.0000001, z: 1}
     - name: Bip01 R Finger2
-      position: {x: -.108467177, y: -.00190490717, z: .00887548458}
-      rotation: {x: .00136088941, y: .0185692478, z: .0178504381, w: .999667287}
-      scale: {x: 1.00000012, y: 1, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10846718, y: -0.0019049072, z: 0.008875485}
+      rotation: {x: 0.0013608894, y: 0.018569248, z: 0.017850438, w: 0.9996673}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
     - name: Bip01 R Finger21
-      position: {x: -.0524124131, y: 1.52587887e-07, z: 0}
-      rotation: {x: 5.79896443e-11, y: 1.62878244e-09, z: -.0355805196, w: .99936682}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.052412413, y: 0.00000015258789, z: 0}
+      rotation: {x: 5.7989644e-11, y: 0.0000000016287824, z: -0.03558052, w: 0.9993668}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Bip01 R Finger22
-      position: {x: -.0326881409, y: 0, z: -9.53674295e-09}
-      rotation: {x: -2.19562901e-09, y: 3.53927265e-09, z: .0914812088, w: .995806813}
-      scale: {x: .99999994, y: .99999994, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03268814, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.000000002195629, y: 0.0000000035392727, z: 0.09148121, w: 0.9958068}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
     - name: Bip01 R Finger1
-      position: {x: -.108509593, y: -.000876617385, z: .0385044962}
-      rotation: {x: -.00249210093, y: .0133603942, z: -.018446004, w: .999737501}
-      scale: {x: 1.00000012, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10850959, y: -0.0008766174, z: 0.038504496}
+      rotation: {x: -0.002492101, y: 0.013360394, z: -0.018446004, w: 0.9997375}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
     - name: Bip01 R Finger11
-      position: {x: -.0447444916, y: 0, z: -9.53674295e-09}
-      rotation: {x: 3.68581765e-09, y: 1.39010392e-09, z: .0295533407, w: .999563217}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04474449, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.0000000036858177, y: 0.0000000013901039, z: 0.02955334, w: 0.9995632}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: Bip01 R Finger12
-      position: {x: -.031099014, y: 1.52587887e-07, z: 0}
-      rotation: {x: -3.78321685e-09, y: -1.49042079e-09, z: -.0371167734, w: .99931097}
-      scale: {x: 1, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.031099014, y: 0.00000015258789, z: 0}
+      rotation: {x: -0.000000003783217, y: -0.0000000014904208, z: -0.037116773, w: 0.999311}
+      scale: {x: 1, y: 1.0000001, z: 1}
     - name: Bip01 R ForeTwist1
-      position: {x: -.129652172, y: 0, z: -3.05175774e-07}
-      rotation: {x: -.0341390595, y: -4.54460525e-10, z: -3.3585279e-10, w: .999417126}
+      parentName: 
+      position: {x: -0.12965217, y: 0, z: -0.00000030517577}
+      rotation: {x: -0.03413906, y: -4.5446052e-10, z: -3.358528e-10, w: 0.9994171}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 RUpArmTwist
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -1.86264515e-09, y: -4.65661287e-10, z: -2.91038305e-10, w: 1}
+      rotation: {x: -0.0000000018626451, y: -4.656613e-10, z: -2.910383e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 RUpArmTwist1
-      position: {x: -.131791323, y: 0, z: 0}
-      rotation: {x: -1.86264515e-09, y: -4.65661287e-10, z: -2.91038305e-10, w: 1}
+      parentName: 
+      position: {x: -0.13179132, y: 0, z: 0}
+      rotation: {x: -0.0000000018626451, y: -4.656613e-10, z: -2.910383e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
