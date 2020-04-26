@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.EventSystems;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMovement))]
@@ -22,6 +21,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
@@ -33,7 +35,6 @@ public class PlayerController : MonoBehaviour
                 if (interactable != null)
                 {
                     SetFocus(interactable);
-                    Debug.Log("Interact");
                 }
                 else
                 {
