@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f354d8e6c2a0444aa092f711fca895b, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  name: Striking Longsword
+  icon: {fileID: 21300000, guid: 5264ac7dd54fd4de69e43f8622b062e7, type: 3}
+  isDefaultItem: 0
+  equipSlot: 3
+  mesh: {fileID: 4936370265972517117, guid: 75291f7a74cd2b24c8fbd8cc6e528650, type: 3}
+  armor: 0
+  damage: 3

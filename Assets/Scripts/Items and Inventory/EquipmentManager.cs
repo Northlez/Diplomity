@@ -15,7 +15,12 @@ public class EquipmentManager : MonoBehaviour
 
     #endregion
 
+    public SkinnedMeshRenderer targetMesh;
+    public Transform weaponTransform;
+    public Transform shieldTransform;
+
     Equipment[] currentEquipment;
+    SkinnedMeshRenderer[] currentMeshes;
 
     public delegate void OnEquipmentChanged(Equipment newEquip, Equipment oldEquip);
     public OnEquipmentChanged onEquipmentChanged;
@@ -26,6 +31,7 @@ public class EquipmentManager : MonoBehaviour
     {
         int numOfSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         currentEquipment = new Equipment[numOfSlots];
+        currentMeshes = new SkinnedMeshRenderer[numOfSlots];
         inventory = Inventory.instance;
     }
 
@@ -47,12 +53,38 @@ public class EquipmentManager : MonoBehaviour
         }
 
         currentEquipment[slotIndex] = newEquip;
+        SkinnedMeshRenderer newMesh = Instantiate<SkinnedMeshRenderer>(newEquip.mesh);
+        currentMeshes[slotIndex] = newMesh;
+        //newMesh.transform.parent = targetMesh.transform;
+        if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Weapon)
+        {           
+            newMesh.rootBone = weaponTransform;
+            newMesh.transform.parent = weaponTransform;
+        }
+        else if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Shield)
+        {
+            newMesh.transform.parent = shieldTransform;
+            newMesh.rootBone = shieldTransform;
+        }
+        else
+        {
+            newMesh.transform.parent = targetMesh.transform;
+            newMesh.bones = targetMesh.bones;
+            newMesh.rootBone = targetMesh.rootBone;
+        }
+
+        
     }
 
     public void Unequip(int slotIndex)
     {
         if (currentEquipment[slotIndex] != null)
         {
+            if (currentMeshes[slotIndex] != null )
+            {
+                Destroy(currentMeshes[slotIndex].gameObject);
+            }
+
             Equipment oldEquip = currentEquipment[slotIndex];
             inventory.Add(oldEquip);
 

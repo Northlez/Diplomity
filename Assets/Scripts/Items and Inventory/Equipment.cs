@@ -8,6 +8,7 @@ public enum EquipmentSlot { Head, Chest, Leags, Weapon, Shield, Feet }
 public class Equipment : Item
 {
     public EquipmentSlot equipSlot;
+    public SkinnedMeshRenderer mesh;
 
     public int armor;
     public int damage;

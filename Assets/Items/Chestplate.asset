@@ -16,5 +16,6 @@ MonoBehaviour:
   icon: {fileID: 0}
   isDefaultItem: 0
   equipSlot: 1
+  mesh: {fileID: 4936370265972517117, guid: 75291f7a74cd2b24c8fbd8cc6e528650, type: 3}
   armor: 5
   damage: 0
