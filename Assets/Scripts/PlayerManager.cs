@@ -23,4 +23,10 @@ public class PlayerManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void Heal(int healing)
+    {
+        PlayerStats playerStats = player.GetComponent<PlayerStats>();
+        playerStats.Heal(healing);
+    }
+
 }

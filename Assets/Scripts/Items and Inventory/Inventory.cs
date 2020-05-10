@@ -22,6 +22,7 @@ public class Inventory : MonoBehaviour
 
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallback;
+    public Transform dropTransform;
 
     public int space = 20;
 
@@ -49,6 +50,10 @@ public class Inventory : MonoBehaviour
 
     public void Remove(Item item)
     {
+        if (item.item3d != null)
+        {
+            Instantiate(item.item3d, dropTransform);
+        }
         items.Remove(item);
 
         if (onItemChangedCallback != null)

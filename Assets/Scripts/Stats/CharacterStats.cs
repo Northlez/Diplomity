@@ -33,6 +33,12 @@ public class CharacterStats : MonoBehaviour
         Debug.Log(transform.name + " took " + damage + " damage.");
     }
 
+    public void Heal(int healing)
+    {
+        currentHealth += healing;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+    }
+
     public virtual void Die()
     {
         //Персонаж умирает
