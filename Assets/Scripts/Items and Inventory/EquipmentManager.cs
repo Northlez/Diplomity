@@ -22,6 +22,9 @@ public class EquipmentManager : MonoBehaviour
     Equipment[] currentEquipment;
     GameObject[] currentModels;
 
+    public Transform equipParent;
+    EquipSlot[] equipmentSlots;
+
     public delegate void OnEquipmentChanged(Equipment newEquip, Equipment oldEquip);
     public OnEquipmentChanged onEquipmentChanged;
 
@@ -32,6 +35,9 @@ public class EquipmentManager : MonoBehaviour
         int numOfSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         currentEquipment = new Equipment[numOfSlots];
         currentModels = new GameObject[numOfSlots];
+
+        equipmentSlots = equipParent.GetComponentsInChildren<EquipSlot>();
+
         inventory = Inventory.instance;
     }
 
@@ -43,8 +49,7 @@ public class EquipmentManager : MonoBehaviour
 
         if (currentEquipment[slotIndex] != null)
         {
-            oldEquip = currentEquipment[slotIndex];
-            inventory.Add(oldEquip);
+            equipmentSlots[slotIndex].Unequip();         
         }
 
         if(onEquipmentChanged != null)
@@ -52,12 +57,12 @@ public class EquipmentManager : MonoBehaviour
             onEquipmentChanged.Invoke(newEquip, oldEquip);
         }
 
-        if (newEquip != null && ((newEquip.equipSlot == EquipmentSlot.Weapon) || (newEquip.equipSlot == EquipmentSlot.Shield)))
+        if (newEquip != null)
         {
-            //newMesh.transform.parent = targetMesh.transform;
             if (newEquip.equipSlot == EquipmentSlot.Weapon)
             {
-                currentEquipment[slotIndex] = newEquip;
+                equipmentSlots[slotIndex].AddEquip(newEquip);
+                currentEquipment[slotIndex] = newEquip;              
                 Weapon newWeapon = (Weapon)newEquip;
                 GameObject newModel = Instantiate(newWeapon.model);
                 currentModels[slotIndex] = newModel;
@@ -67,6 +72,7 @@ public class EquipmentManager : MonoBehaviour
             }
             else if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Shield)
             {
+                equipmentSlots[slotIndex].AddEquip(newEquip);
                 currentEquipment[slotIndex] = newEquip;
                 Shield newShield = (Shield)newEquip;
                 GameObject newModel = Instantiate(newShield.model);
@@ -75,6 +81,12 @@ public class EquipmentManager : MonoBehaviour
                 newModel.transform.localPosition = newShield.inHandPosition;
                 newModel.transform.localRotation = Quaternion.Euler(newShield.inHandRotation); 
             }
+            else
+            {
+                currentEquipment[slotIndex] = newEquip;
+                equipmentSlots[slotIndex].AddEquip(newEquip);
+            }
+           
         }
         
     }
@@ -91,6 +103,7 @@ public class EquipmentManager : MonoBehaviour
             Equipment oldEquip = currentEquipment[slotIndex];
             inventory.Add(oldEquip);
 
+            equipmentSlots[slotIndex].Unequip();
             currentEquipment[slotIndex] = null;
 
             if (onEquipmentChanged != null)

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f354d8e6c2a0444aa092f711fca895b, type: 3}
   m_Name: Leggins
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 0}
+  name: Leggins
+  icon: {fileID: 21300000, guid: 4c61fabec38534e4fbc8e3137996d06b, type: 3}
   isDefaultItem: 0
+  item3d: {fileID: 0}
   equipSlot: 2
   armor: 3
   damage: 0

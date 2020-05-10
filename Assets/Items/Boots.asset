@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f354d8e6c2a0444aa092f711fca895b, type: 3}
-  m_Name: Chestplate
+  m_Name: Boots
   m_EditorClassIdentifier: 
-  name: Chestplate
-  icon: {fileID: 21300000, guid: 0f8810d5e106d4d68bc99d24b20063b0, type: 3}
+  name: Boots
+  icon: {fileID: 21300000, guid: af1f1b45fa6b5e64894c04ceb8a592f7, type: 3}
   isDefaultItem: 0
   item3d: {fileID: 0}
-  equipSlot: 1
-  armor: 5
+  equipSlot: 3
+  armor: 1
   damage: 0

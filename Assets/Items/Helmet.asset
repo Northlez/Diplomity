@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Helmet
   m_EditorClassIdentifier: 
   name: Helmet
-  icon: {fileID: 21300000, guid: c6f5831e40d8cf24abb32e365f93a94f, type: 3}
+  icon: {fileID: 21300000, guid: 63a13adb2b0e64f20a9b56869ed72751, type: 3}
   isDefaultItem: 0
+  item3d: {fileID: 0}
   equipSlot: 0
   armor: 2
   damage: 0
