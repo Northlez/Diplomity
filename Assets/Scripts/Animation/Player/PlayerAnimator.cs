@@ -5,14 +5,14 @@ using UnityEngine;
 public class PlayerAnimator : CharacterAnimation
 {
     public WeaponAnimations[] weaponAnimations;
-    Dictionary<Equipment,AnimationClip[]> weaponAnimationDict;
+    Dictionary<Weapon,AnimationClip[]> weaponAnimationDict;
 
     protected override void Start()
     {
         base.Start();
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
 
-        weaponAnimationDict = new Dictionary<Equipment, AnimationClip[]>();
+        weaponAnimationDict = new Dictionary<Weapon, AnimationClip[]>();
         foreach (WeaponAnimations wa in weaponAnimations)
         {
             weaponAnimationDict.Add(wa.weapon, wa.clips);
@@ -24,10 +24,11 @@ public class PlayerAnimator : CharacterAnimation
     {
         if(newEquip != null && newEquip.equipSlot == EquipmentSlot.Weapon)
         {
+            Weapon newWeapon = (Weapon)newEquip;
             characterAnimator.SetLayerWeight(1, 1);
-            if(weaponAnimationDict.ContainsKey(newEquip))
+            if(weaponAnimationDict.ContainsKey(newWeapon))
             {
-                currentAttackAnimSet = weaponAnimationDict[newEquip];
+                currentAttackAnimSet = weaponAnimationDict[newWeapon];
             }
         }
         else if (newEquip == null && oldEquip == null && oldEquip.equipSlot == EquipmentSlot.Weapon)
@@ -49,7 +50,7 @@ public class PlayerAnimator : CharacterAnimation
     [System.Serializable]
     public struct WeaponAnimations
     {
-        public Equipment weapon;
+        public Weapon weapon;
         public AnimationClip[] clips;
     }
 }

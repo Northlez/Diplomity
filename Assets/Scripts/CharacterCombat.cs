@@ -10,7 +10,7 @@ public class CharacterCombat : MonoBehaviour
     const float combatCooldown = 5f;
     float lastAttackTime;
 
-    public float attackDelay = .6f;
+    public float damageAfterAttackDelay = .6f;
 
     public bool inCombat { get; private set; }
     public event System.Action OnAttack;
@@ -36,7 +36,7 @@ public class CharacterCombat : MonoBehaviour
     {
         if (attackCooldown <= 0f)
         {
-            StartCoroutine(DoDamage(targetStats, attackDelay));
+            StartCoroutine(DoDamage(targetStats, damageAfterAttackDelay));
 
             if (OnAttack != null)
                 OnAttack();

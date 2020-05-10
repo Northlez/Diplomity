@@ -9,6 +9,7 @@ public class CharacterAnimation : MonoBehaviour
 
     public AnimationClip[] defaultAttackAnimSet;
     protected AnimationClip[] currentAttackAnimSet;
+    private Dictionary<AnimationClip, float> animationDamageDelay;
 
     const float locomotionAnimationSmoothTime = 0.1f;
 

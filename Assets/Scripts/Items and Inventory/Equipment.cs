@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum EquipmentSlot { Head, Chest, Leags, Weapon, Shield, Feet }
+public enum EquipmentSlot { Head, Chest, Leags, Feet, Weapon, Shield }
 
-[CreateAssetMenu(fileName = "New Equipment", menuName = "Inventory/Equipment")]
+[CreateAssetMenu(fileName = "New Equipment", menuName = "Inventory/Equipment/Armor")]
 public class Equipment : Item
 {
-    public EquipmentSlot equipSlot;
-    public SkinnedMeshRenderer mesh;
+    public EquipmentSlot equipSlot; 
 
     public int armor;
     public int damage;

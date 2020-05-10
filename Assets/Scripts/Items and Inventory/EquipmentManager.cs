@@ -20,7 +20,7 @@ public class EquipmentManager : MonoBehaviour
     public Transform shieldTransform;
 
     Equipment[] currentEquipment;
-    SkinnedMeshRenderer[] currentMeshes;
+    GameObject[] currentModels;
 
     public delegate void OnEquipmentChanged(Equipment newEquip, Equipment oldEquip);
     public OnEquipmentChanged onEquipmentChanged;
@@ -31,7 +31,7 @@ public class EquipmentManager : MonoBehaviour
     {
         int numOfSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         currentEquipment = new Equipment[numOfSlots];
-        currentMeshes = new SkinnedMeshRenderer[numOfSlots];
+        currentModels = new GameObject[numOfSlots];
         inventory = Inventory.instance;
     }
 
@@ -52,27 +52,30 @@ public class EquipmentManager : MonoBehaviour
             onEquipmentChanged.Invoke(newEquip, oldEquip);
         }
 
-        currentEquipment[slotIndex] = newEquip;
-        SkinnedMeshRenderer newMesh = Instantiate<SkinnedMeshRenderer>(newEquip.mesh);
-        currentMeshes[slotIndex] = newMesh;
-        //newMesh.transform.parent = targetMesh.transform;
-        if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Weapon)
-        {           
-            newMesh.rootBone = weaponTransform;
-            newMesh.transform.parent = weaponTransform;
-        }
-        else if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Shield)
+        if (newEquip != null && ((newEquip.equipSlot == EquipmentSlot.Weapon) || (newEquip.equipSlot == EquipmentSlot.Shield)))
         {
-            newMesh.transform.parent = shieldTransform;
-            newMesh.rootBone = shieldTransform;
+            //newMesh.transform.parent = targetMesh.transform;
+            if (newEquip.equipSlot == EquipmentSlot.Weapon)
+            {
+                currentEquipment[slotIndex] = newEquip;
+                Weapon newWeapon = (Weapon)newEquip;
+                GameObject newModel = Instantiate(newWeapon.model);
+                currentModels[slotIndex] = newModel;
+                newModel.transform.parent = weaponTransform;
+                newModel.transform.localPosition = newWeapon.inHandPosition;
+                newModel.transform.localRotation = Quaternion.Euler(newWeapon.inHandRotation);
+            }
+            else if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Shield)
+            {
+                currentEquipment[slotIndex] = newEquip;
+                Shield newShield = (Shield)newEquip;
+                GameObject newModel = Instantiate(newShield.model);
+                currentModels[slotIndex] = newModel;
+                newModel.transform.parent = shieldTransform;
+                newModel.transform.localPosition = newShield.inHandPosition;
+                newModel.transform.localRotation = Quaternion.Euler(newShield.inHandRotation); 
+            }
         }
-        else
-        {
-            newMesh.transform.parent = targetMesh.transform;
-            newMesh.bones = targetMesh.bones;
-            newMesh.rootBone = targetMesh.rootBone;
-        }
-
         
     }
 
@@ -80,9 +83,9 @@ public class EquipmentManager : MonoBehaviour
     {
         if (currentEquipment[slotIndex] != null)
         {
-            if (currentMeshes[slotIndex] != null )
+            if (currentModels[slotIndex] != null )
             {
-                Destroy(currentMeshes[slotIndex].gameObject);
+                Destroy(currentModels[slotIndex].gameObject);
             }
 
             Equipment oldEquip = currentEquipment[slotIndex];
