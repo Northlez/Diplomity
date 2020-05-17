@@ -7,13 +7,11 @@ public class Item : ScriptableObject
 {
     new public string name = "New Item";
     public Sprite icon = null;
-    public bool isDefaultItem = false;
     public GameObject item3d;
 
     public virtual void Use()
     {
         // Использование предмета
-        Debug.Log("Использую " + name);
     }
 
     public void RemoveFromInventory()

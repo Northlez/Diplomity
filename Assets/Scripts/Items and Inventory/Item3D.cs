@@ -16,7 +16,6 @@ public class Item3D : Interactable
         bool wasPickedUp = Inventory.instance.Add(item);
         if (wasPickedUp)
         {
-            Debug.Log(item.name + " поднят");
             Destroy(gameObject);
         }
     }

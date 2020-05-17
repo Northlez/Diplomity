@@ -20,8 +20,8 @@ public class PlayerStats : CharacterStats
 
         if (oldEquip != null)
         {
-            armor.RemoveModifier(newEquip.armor);
-            damage.RemoveModifier(newEquip.damage);
+            armor.RemoveModifier(oldEquip.armor);
+            damage.RemoveModifier(oldEquip.damage);
         }
     }
 

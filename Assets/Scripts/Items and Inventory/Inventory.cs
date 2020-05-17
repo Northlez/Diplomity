@@ -30,35 +30,38 @@ public class Inventory : MonoBehaviour
 
     public bool Add(Item item)
     {
-        if (!item.isDefaultItem)
+        if (items.Count >= space)
         {
-            if (items.Count >= space)
-            {
-                Debug.Log("Недостаточно пространства");
-                return false;
-            }
+            Debug.Log("Недостаточно пространства");
+            return false;
+        }
+        items.Add(item);
 
-            items.Add(item);
-
-            if (onItemChangedCallback != null)
-            {
-                onItemChangedCallback.Invoke();
-            }
+        if (onItemChangedCallback != null)
+        {
+            onItemChangedCallback.Invoke();
         }
         return true;
     }
 
     public void Remove(Item item)
     {
-        if (item.item3d != null)
-        {
-            Instantiate(item.item3d, dropTransform);
-        }
         items.Remove(item);
 
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();
+        }
+    }
+
+    public void DropItem(Item item)
+    {
+        if (item.item3d != null)
+        {
+            Vector3 dropPosition = dropTransform.position;
+            Vector3 dropPositionChange = dropTransform.forward * 2;
+            Quaternion dropRotation = dropTransform.rotation;
+            Instantiate(item.item3d, dropPosition + dropPositionChange, dropRotation);
         }
     }
 }

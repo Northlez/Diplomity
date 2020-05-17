@@ -103,13 +103,13 @@ public class EquipmentManager : MonoBehaviour
             Equipment oldEquip = currentEquipment[slotIndex];
             inventory.Add(oldEquip);
 
-            equipmentSlots[slotIndex].Unequip();
             currentEquipment[slotIndex] = null;
-
+            equipmentSlots[slotIndex].Unequip();
             if (onEquipmentChanged != null)
             {
                 onEquipmentChanged.Invoke(null, oldEquip);
             }
+            
         }
     }
 
