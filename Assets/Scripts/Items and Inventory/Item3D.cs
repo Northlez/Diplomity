@@ -13,10 +13,13 @@ public class Item3D : Interactable
 
     void PickUp()
     {
-        bool wasPickedUp = Inventory.instance.Add(item);
-        if (wasPickedUp)
+        if (item != null)
         {
-            Destroy(gameObject);
+            bool wasPickedUp = PlayerInventory.instance.Add(item);
+            if (wasPickedUp)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

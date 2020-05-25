@@ -28,7 +28,7 @@ public class EquipmentManager : MonoBehaviour
     public delegate void OnEquipmentChanged(Equipment newEquip, Equipment oldEquip);
     public OnEquipmentChanged onEquipmentChanged;
 
-    Inventory inventory;
+    PlayerInventory inventory;
 
     private void Start()
     {
@@ -38,7 +38,7 @@ public class EquipmentManager : MonoBehaviour
 
         equipmentSlots = equipParent.GetComponentsInChildren<EquipSlot>();
 
-        inventory = Inventory.instance;
+        inventory = PlayerInventory.instance;
     }
 
     public void Equip(Equipment newEquip)

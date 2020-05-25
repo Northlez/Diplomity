@@ -16,6 +16,6 @@ public class Item : ScriptableObject
 
     public void RemoveFromInventory()
     {
-        Inventory.instance.Remove(this);
+        PlayerInventory.instance.Remove(this);
     }
 }

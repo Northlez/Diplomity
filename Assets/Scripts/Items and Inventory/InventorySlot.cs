@@ -6,9 +6,14 @@ public class InventorySlot : MonoBehaviour
     public Image icon;
     public Button removeButton;
 
-    Inventory inv = Inventory.instance;
+    ObjectInventory objectInventory;
+    PlayerInventory inventory;
     Item item;
 
+    void Start()
+    {
+        inventory = PlayerInventory.instance;
+    }
 
     public void addItem(Item newItem)
     { 
@@ -30,15 +35,40 @@ public class InventorySlot : MonoBehaviour
 
     public void OnRemoveButton()
     {
-        inv.DropItem(item);
-        inv.Remove(item);
+        inventory.DropItem(item);
+        inventory.Remove(item);
     }
 
     public void UseItem()
     {
         if(item != null)
         {
-            item.Use();
+            if(inventory.invRegime == InventoryRegime.Regular)
+            {
+                item.Use();
+            }
+            else if(inventory.invRegime == InventoryRegime.ObjectInventory && inventory.objectInventory != null)
+            {
+                objectInventory = inventory.objectInventory;
+                objectInventory.Add(item);
+                inventory.Remove(item);
+            }
+        }
+    }
+
+    public void HideRemoveButton()
+    {
+        if (removeButton.gameObject.activeSelf)
+        {
+            removeButton.gameObject.SetActive(false);
+        }
+    }
+
+    public void ShowRemoveButton()
+    {
+        if (!removeButton.gameObject.activeSelf && item != null)
+        {
+            removeButton.gameObject.SetActive(true);
         }
     }
 }
