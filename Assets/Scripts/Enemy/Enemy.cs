@@ -5,8 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterStats))]
 public class Enemy : Interactable
 {
-    public string id;
-
     PlayerManager playerManager;
     CharacterStats stats;
 
@@ -25,4 +23,5 @@ public class Enemy : Interactable
             playerCombat.Attack(stats);
         }
     }
+
 }
