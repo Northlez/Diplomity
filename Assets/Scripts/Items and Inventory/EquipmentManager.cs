@@ -11,15 +11,15 @@ public class EquipmentManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        onSceneLoad();
     }
 
     #endregion
 
-    public SkinnedMeshRenderer targetMesh;
     public Transform weaponTransform;
     public Transform shieldTransform;
 
-    Equipment[] currentEquipment;
+    public Equipment[] currentEquipment { get; private set; }
     GameObject[] currentModels;
 
     public Transform equipParent;
@@ -30,7 +30,7 @@ public class EquipmentManager : MonoBehaviour
 
     PlayerInventory inventory;
 
-    private void Start()
+    private void onSceneLoad()
     {
         int numOfSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         currentEquipment = new Equipment[numOfSlots];
@@ -59,6 +59,10 @@ public class EquipmentManager : MonoBehaviour
 
         if (newEquip != null)
         {
+            if (currentEquipment[slotIndex] != null)
+            {
+                Unequip(slotIndex);
+            }
             if (newEquip.equipSlot == EquipmentSlot.Weapon)
             {
                 equipmentSlots[slotIndex].AddEquip(newEquip);
@@ -70,7 +74,7 @@ public class EquipmentManager : MonoBehaviour
                 newModel.transform.localPosition = newWeapon.inHandPosition;
                 newModel.transform.localRotation = Quaternion.Euler(newWeapon.inHandRotation);
             }
-            else if (newEquip != null && newEquip.equipSlot == EquipmentSlot.Shield)
+            else if (newEquip.equipSlot == EquipmentSlot.Shield)
             {
                 equipmentSlots[slotIndex].AddEquip(newEquip);
                 currentEquipment[slotIndex] = newEquip;

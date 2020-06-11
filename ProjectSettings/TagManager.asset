@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Shootable
+  - Enemy
+  - Holder
+  - DataManager
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Postprocessing
   - Interaction
   - Enemies
-  - 
+  - Outside
   - 
   - 
   - 

@@ -31,7 +31,7 @@ public class PlayerAnimator : CharacterAnimation
                 currentAttackAnimSet = weaponAnimationDict[newWeapon];
             }
         }
-        else if (newEquip == null && oldEquip == null && oldEquip.equipSlot == EquipmentSlot.Weapon)
+        else if (newEquip == null && oldEquip.equipSlot == EquipmentSlot.Weapon)
         {
             characterAnimator.SetLayerWeight(1, 0);
             currentAttackAnimSet = defaultAttackAnimSet;

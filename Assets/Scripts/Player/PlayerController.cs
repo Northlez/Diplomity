@@ -43,21 +43,6 @@ public class PlayerController : MonoBehaviour
                 }
             }   
         }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit, 100))
-            {
-                Interactable interactable = hit.collider.GetComponent<Interactable>();
-                if (interactable != null)
-                {
-                    SetFocus(interactable);
-                }
-            }
-        }
     }
 
     void SetFocus(Interactable newFocus)

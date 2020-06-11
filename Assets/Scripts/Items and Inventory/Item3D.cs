@@ -5,6 +5,7 @@ using UnityEngine;
 public class Item3D : Interactable
 {
     public Item item;
+    public string id;
 
     public override void Interact()
     {

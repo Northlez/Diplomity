@@ -20,6 +20,9 @@ public class Inventory : MonoBehaviour
             Debug.Log("Недостаточно пространства");
             return false;
         }
+
+        if (item == null) return false;
+        
         items.Add(item);
 
         if (onItemChangedCallback != null)
@@ -39,4 +42,8 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public void Clear()
+    {
+        items.Clear();
+    }
 }

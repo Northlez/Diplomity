@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
+    HealthBarScript healthBar;
+
     // Start is called before the first frame update
     void Start()
     {
+        healthBar = FindObjectOfType<HealthBarScript>();
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
+        healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(currentHealth);
     }
 
     void OnEquipmentChanged(Equipment newEquip, Equipment oldEquip)
@@ -25,8 +30,19 @@ public class PlayerStats : CharacterStats
         }
     }
 
+    public override void TakeDamage(int damage)
+    {
+        base.TakeDamage(damage);
+        healthBar.SetHealth(currentHealth);
+    }
+
     public override void Die()
     {
         PlayerManager.instance.KillPlayer();
+    }
+
+    public void SetCurrentHealth(int health)
+    {
+        currentHealth = health;
     }
 }
