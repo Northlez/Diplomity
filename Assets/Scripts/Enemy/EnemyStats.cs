@@ -10,6 +10,7 @@ public class EnemyStats : CharacterStats
     EnemyController controller;
     CharacterCombat combat;
     Animator animator;
+    Collider collider;
 
     private void Awake()
     {
@@ -17,6 +18,7 @@ public class EnemyStats : CharacterStats
         controller = GetComponent<EnemyController>();
         combat = GetComponent<CharacterCombat>();
         animator = GetComponentInChildren<Animator>();
+        collider = GetComponent<BoxCollider>();
         currentHealth = maxHealth;
     }
 

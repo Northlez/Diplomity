@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemiesData : MonoBehaviour
+[System.Serializable]
+public class EnemiesData
 {
     string id;
     public Vector3 position;
