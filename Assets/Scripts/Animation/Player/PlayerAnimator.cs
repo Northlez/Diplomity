@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerAnimator : CharacterAnimation
 {
@@ -18,6 +19,22 @@ public class PlayerAnimator : CharacterAnimation
             weaponAnimationDict.Add(wa.weapon, wa.clips);
         }
 
+        SceneManager.sceneLoaded += OnSceneLoad;
+
+    }
+
+    private void OnSceneLoad(Scene scene, LoadSceneMode mode)
+    {
+        if (EquipmentManager.instance != null)
+        {
+            Weapon currentWeapon = (Weapon)EquipmentManager.instance.currentEquipment[(int)EquipmentSlot.Weapon];
+            if (currentWeapon != null)
+
+                if (weaponAnimationDict.ContainsKey(currentWeapon))
+                {
+                    currentAttackAnimSet = weaponAnimationDict[currentWeapon];
+                }
+        }
     }
 
     void OnEquipmentChanged(Equipment newEquip, Equipment oldEquip)

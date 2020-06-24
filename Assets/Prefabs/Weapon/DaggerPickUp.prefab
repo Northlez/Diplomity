@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4936606008822476478}
   - component: {fileID: 1200011705331132737}
   - component: {fileID: 7534167966175848361}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DaggerPickUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +48,7 @@ MonoBehaviour:
   interactRadius: 0.7
   interactionTransform: {fileID: 4936606008822476478}
   item: {fileID: 11400000, guid: 919d7f2d05a2dcb42bd3b7892d6b4934, type: 2}
+  id: RK1
 --- !u!54 &7534167966175848361
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -74,6 +75,10 @@ PrefabInstance:
     - target: {fileID: 1435722642621832, guid: cc8e62a8f8ce5194faf0a937db835cf6, type: 3}
       propertyPath: m_Name
       value: SM_Wep_Dagger_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435722642621832, guid: cc8e62a8f8ce5194faf0a937db835cf6, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4586018272118732, guid: cc8e62a8f8ce5194faf0a937db835cf6, type: 3}
       propertyPath: m_LocalPosition.x

@@ -49,7 +49,8 @@ public class EquipmentManager : MonoBehaviour
 
         if (currentEquipment[slotIndex] != null)
         {
-            equipmentSlots[slotIndex].Unequip();         
+            oldEquip = currentEquipment[slotIndex];
+            Unequip(slotIndex);         
         }
 
         if(onEquipmentChanged != null)
@@ -59,10 +60,6 @@ public class EquipmentManager : MonoBehaviour
 
         if (newEquip != null)
         {
-            if (currentEquipment[slotIndex] != null)
-            {
-                Unequip(slotIndex);
-            }
             if (newEquip.equipSlot == EquipmentSlot.Weapon)
             {
                 equipmentSlots[slotIndex].AddEquip(newEquip);

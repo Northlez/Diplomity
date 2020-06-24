@@ -41,7 +41,15 @@ public class HolderHandler : MonoBehaviour
                     inv.Clear();
                     foreach(string name in holderData.itemsNames)
                     {
-                        inv.Add(Resources.Load<Item>("Items/"+name));
+                        Item item = Resources.Load<Item>("Items/Items/" + name);
+                        if (item == null)
+                        {
+                            item = Resources.Load<Item>("Items/Equipment/" + name);
+                        }
+                        if (item != null)
+                        {
+                            inv.Add(item);
+                        }
                     }
                     break;
                 }

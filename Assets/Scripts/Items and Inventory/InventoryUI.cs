@@ -22,6 +22,8 @@ public class InventoryUI : MonoBehaviour
 
     #endregion
 
+    public static bool invetoryIsOpened = false;
+
     public Transform itemsParent;
     public Transform objectItemsParent;
     public GameObject inventoryUI;
@@ -106,6 +108,7 @@ public class InventoryUI : MonoBehaviour
             if (inventoryUI.activeSelf) inventory.invRegime = InventoryRegime.Regular;
         }
         inventoryUI.SetActive(!inventoryUI.activeSelf);
+        invetoryIsOpened = inventoryUI.activeSelf;
     }
 
     public void OpenHolder()

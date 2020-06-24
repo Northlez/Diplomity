@@ -7,7 +7,7 @@ public class PlayerStats : CharacterStats
     HealthBarScript healthBar;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         healthBar = FindObjectOfType<HealthBarScript>();
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
@@ -41,8 +41,4 @@ public class PlayerStats : CharacterStats
         PlayerManager.instance.KillPlayer();
     }
 
-    public void SetCurrentHealth(int health)
-    {
-        currentHealth = health;
-    }
 }

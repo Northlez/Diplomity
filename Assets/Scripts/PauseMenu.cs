@@ -5,21 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    GameObject dataManager;
-
-    HolderHandler handler = new HolderHandler();
-
     public static bool GameIsPaused = false;
 
     public GameObject PauseMenuUi;
-
-    string path;
+    public GameObject SettingsMenuPanel;
+    public GameObject PauseMenuPanel;
+    public GameObject SavePanel;
+    public GameObject LoadPanel;
 
     private void Start()
     {
-        dataManager = GameObject.FindWithTag("DataManager");
-        path = Application.dataPath + "/saves/HolderTestSave.save";
-        
+        PauseMenuUi.SetActive(false);
+        BackToPauseMenu();
     }
 
     private void Update()
@@ -48,21 +45,35 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUi.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        BackToPauseMenu();
     }
 
     public void Save()
     {
-        SaveData data = new SaveData(HolderHandler.SaveHolders(), PlayerDataHanlder.SavePlayerData());
-        SerializationManager.Save("HolderTestSave", data);
+        PauseMenuPanel.SetActive(false);
+        SavePanel.SetActive(true);
     }
 
     public void Load()
-    {      
-        DataManager.instance.Set(path);
-        DontDestroyOnLoad(dataManager);
-        Resume();
-        SceneManager.LoadScene(1);
+    {
+        PauseMenuPanel.SetActive(false);
+        LoadPanel.SetActive(true);
     }
+
+    public void Settings()
+    {
+        PauseMenuPanel.SetActive(false);
+        SettingsMenuPanel.SetActive(true);
+    }
+
+    public void BackToPauseMenu()
+    {
+        PauseMenuPanel.SetActive(true);
+        SettingsMenuPanel.SetActive(false);
+        SavePanel.SetActive(false);
+        LoadPanel.SetActive(false);
+    }
+       
 
     public void MainMenu()
     {

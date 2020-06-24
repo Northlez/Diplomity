@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyStats : CharacterStats
 {
@@ -11,6 +12,7 @@ public class EnemyStats : CharacterStats
     CharacterCombat combat;
     Animator animator;
     Collider collider;
+    NavMeshAgent agent;
 
     private void Awake()
     {
@@ -19,6 +21,7 @@ public class EnemyStats : CharacterStats
         combat = GetComponent<CharacterCombat>();
         animator = GetComponentInChildren<Animator>();
         collider = GetComponent<BoxCollider>();
+        agent = GetComponent<NavMeshAgent>();
         currentHealth = maxHealth;
     }
 
@@ -28,5 +31,6 @@ public class EnemyStats : CharacterStats
         controller.enabled = false;
         combat.enabled = false;
         animator.enabled = false;
+        agent.enabled = false;
     }
 }

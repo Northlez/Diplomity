@@ -5,13 +5,26 @@ using UnityEngine;
 [System.Serializable]
 public class SaveData
 {
-    IList<HolderData> holders;
+    int savedSceneIndex;
     PlayerData player;
+    IList<HolderData> holders;
+    List<ItemData> items;
+    List<EnemiesData> enemies;
+    List<DoorData> doors;
 
-    public SaveData(IList<HolderData> holdersData, PlayerData playerData)
+    public SaveData(int currentSceneIndex,IList<HolderData> holdersData, PlayerData playerData, List<EnemiesData> enemiesData, List<ItemData> itemsData, List<DoorData> doorsData)
     {
-        holders = holdersData;
+        savedSceneIndex = currentSceneIndex;
         player = playerData;
+        holders = holdersData;
+        items = itemsData;
+        enemies = enemiesData;
+        doors = doorsData;
+    }
+
+    public int GetSavedSceneIndex()
+    {
+        return savedSceneIndex;
     }
 
     public IList<HolderData> GetHoldersList()
@@ -22,5 +35,20 @@ public class SaveData
     public PlayerData GetPlayerData()
     {
         return player;
+    }
+
+    public List<EnemiesData> GetEnemiesData()
+    {
+        return enemies;
+    }
+
+    public List<ItemData> GetItemsData()
+    {
+        return items;
+    }
+
+    public List<DoorData> GetDoorsData()
+    {
+        return doors;
     }
 }

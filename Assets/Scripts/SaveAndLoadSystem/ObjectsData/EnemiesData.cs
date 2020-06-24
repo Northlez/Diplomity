@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class EnemiesData
 {
-    string id;
+    public string id;
     public Vector3 position;
     public Quaternion rotation;
     public int currentHealth;

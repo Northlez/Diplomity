@@ -29,8 +29,6 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
-
-        Debug.Log(transform.name + " took " + damage + " damage.");
     }
 
     public void Heal(int healing)
@@ -43,5 +41,10 @@ public class CharacterStats : MonoBehaviour
     {
         //Персонаж умирает
         //Метод будет переопределён
+    }
+
+    public void SetCurrentHealth(int health)
+    {
+        currentHealth = health;
     }
 }

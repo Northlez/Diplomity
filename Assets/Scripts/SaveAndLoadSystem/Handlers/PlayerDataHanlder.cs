@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerDataHanlder : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class PlayerDataHanlder : MonoBehaviour
     public static PlayerData SavePlayerData()
     {
         PlayerData playerData = new PlayerData();
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerManager.instance.player;
         var inventory = PlayerInventory.instance;
         var stats = player.GetComponent<PlayerStats>();
         var equipment = EquipmentManager.instance;
@@ -35,15 +36,18 @@ public class PlayerDataHanlder : MonoBehaviour
 
     public static void LoadPlayerData(PlayerData playerData)
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        
+        player = PlayerManager.instance.player;
+        var agent = player.GetComponent<NavMeshAgent>();
         var inventory = PlayerInventory.instance;
         var stats = player.GetComponent<PlayerStats>();
         var equipment = EquipmentManager.instance;
 
+        agent.enabled = false;
         player.transform.position = playerData.position;
         player.transform.rotation = playerData.rotation;
-        player.transform.GetChild(0).transform.position.Set(0, 0, 0);
         stats.SetCurrentHealth(playerData.currentHealth);
+        agent.enabled = true;
 
         foreach(var equip in equipment.currentEquipment)
         {
@@ -54,12 +58,22 @@ public class PlayerDataHanlder : MonoBehaviour
 
         foreach(var itemName in playerData.itemsinInventory)
         {
-            inventory.Add(Resources.Load<Item>("Items/" + itemName));
+            Item item = Resources.Load<Item>("Items/Items/" + itemName);
+            if(item == null)
+            {
+                item = Resources.Load<Item>("Items/Equipment/" + itemName);
+            }
+            if (item != null)
+            {
+                inventory.Add(item);
+                inventory.onItemChangedCallback.Invoke();
+            }
         }
 
         foreach(var equipName in playerData.equippedItems)
         {
-            equipment.Equip(Resources.Load<Equipment>("Items/" + equipName));
+            Equipment equip = Resources.Load<Equipment>("Items/Equipment/" + equipName);
+            equipment.Equip(equip);          
         }
 
     }

@@ -78,6 +78,7 @@ MonoBehaviour:
   interactRadius: 2
   interactionTransform: {fileID: 2093005936213339542}
   item: {fileID: 11400000, guid: 98f913fd120858a419aa2063bc4af93e, type: 2}
+  id: LS1
 --- !u!1001 &2093005936618590552
 PrefabInstance:
   m_ObjectHideFlags: 0

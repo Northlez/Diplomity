@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 9020902133816411207}
   - component: {fileID: 4315663091494413188}
   - component: {fileID: 1942340418067233204}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: LesserHealingPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,4 +156,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 2
   interactionTransform: {fileID: 7858263337458514063}
-  item: {fileID: 11400000, guid: 0e0713e89e42fc7439f6612c2eb3088a, type: 2}
+  item: {fileID: 11400000, guid: e9301d49a1c17a5459f3b97090b3f0fb, type: 2}
+  id: HP1

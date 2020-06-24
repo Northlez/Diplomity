@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class OpenDoor : Interactable
 {
-    private Animator animator;
-    public Item key;
     PlayerInventory inv;
-    public bool unlocked; 
+    Animator animator;
+
+    public string id;
+    public Item key;
+    public bool locked; 
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +25,14 @@ public class OpenDoor : Interactable
 
     public override void Interact()
     {
-        if (unlocked)
+        if (locked && SearchForKey())
+        {
+            locked = false;
+            inv.Remove(key);
+            Debug.Log("Вы открыли замок!");
+
+        }
+        else if(!locked)
         {
             if (!animator.GetBool("Open"))
             {
@@ -33,12 +42,6 @@ public class OpenDoor : Interactable
             {
                 animator.SetBool("Open", false);
             }
-        }
-        else if(SearchForKey())
-        {
-            unlocked = true;
-            inv.Remove(key);
-            Debug.Log("Вы открыли замок!");
         }
         
     }
